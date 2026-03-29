@@ -1,0 +1,107 @@
+{
+  "surah": 91,
+  "title": "Ash-Shams",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-091.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "bismillah",
+      "start": 0.02,
+      "end": 2.39,
+      "duration": 2.37
+    },
+    {
+      "label": "ayah_1",
+      "start": 2.44,
+      "end": 4.91,
+      "duration": 2.47
+    },
+    {
+      "label": "ayah_2",
+      "start": 5.31,
+      "end": 8.27,
+      "duration": 2.96
+    },
+    {
+      "label": "ayah_3",
+      "start": 8.71,
+      "end": 15.18,
+      "duration": 6.47
+    },
+    {
+      "label": "ayah_4",
+      "start": 17.2,
+      "end": 20.35,
+      "duration": 3.15
+    },
+    {
+      "label": "ayah_5",
+      "start": 20.79,
+      "end": 26.9,
+      "duration": 6.11
+    },
+    {
+      "label": "ayah_6",
+      "start": 28.77,
+      "end": 31.82,
+      "duration": 3.05
+    },
+    {
+      "label": "ayah_7",
+      "start": 32.26,
+      "end": 38.68,
+      "duration": 6.42
+    },
+    {
+      "label": "ayah_8",
+      "start": 40.38,
+      "end": 45.47,
+      "duration": 5.09
+    },
+    {
+      "label": "ayah_9",
+      "start": 47.35,
+      "end": 51.51,
+      "duration": 4.16
+    },
+    {
+      "label": "ayah_10",
+      "start": 51.91,
+      "end": 58.48,
+      "duration": 6.57
+    },
+    {
+      "label": "ayah_11",
+      "start": 60.44,
+      "end": 65.98,
+      "duration": 5.54
+    },
+    {
+      "label": "ayah_12",
+      "start": 67.24,
+      "end": 74.07,
+      "duration": 6.83
+    },
+    {
+      "label": "ayah_13",
+      "start": 74.4,
+      "end": 82.72,
+      "duration": 8.32
+    },
+    {
+      "label": "ayah_14",
+      "start": 84.53,
+      "end": 98.36,
+      "duration": 13.83
+    },
+    {
+      "label": "ayah_15",
+      "start": 100.02,
+      "end": 106.95,
+      "duration": 6.93
+    }
+  ]
+}

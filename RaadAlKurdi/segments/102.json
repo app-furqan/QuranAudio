@@ -1,0 +1,71 @@
+{
+  "surah": 102,
+  "title": "At-Takathur",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-102.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.27,
+      "duration": 0.27
+    },
+    {
+      "label": "bismillah",
+      "start": 0.27,
+      "end": 3.36,
+      "duration": 3.09
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.67,
+      "end": 6.26,
+      "duration": 2.59
+    },
+    {
+      "label": "ayah_2",
+      "start": 6.38,
+      "end": 9.35,
+      "duration": 2.97
+    },
+    {
+      "label": "ayah_3",
+      "start": 10.46,
+      "end": 13.21,
+      "duration": 2.75
+    },
+    {
+      "label": "ayah_4",
+      "start": 13.36,
+      "end": 18.5,
+      "duration": 5.14
+    },
+    {
+      "label": "ayah_5",
+      "start": 19.61,
+      "end": 25.85,
+      "duration": 6.24
+    },
+    {
+      "label": "ayah_6",
+      "start": 26.52,
+      "end": 31.18,
+      "duration": 4.66
+    },
+    {
+      "label": "ayah_7",
+      "start": 31.23,
+      "end": 37.15,
+      "duration": 5.92
+    },
+    {
+      "label": "ayah_8",
+      "start": 37.7,
+      "end": 46.87,
+      "duration": 9.17
+    }
+  ]
+}

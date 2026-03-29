@@ -1,0 +1,89 @@
+{
+  "surah": 62,
+  "title": "Al-Jumua",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-062.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 5.84,
+      "duration": 5.84
+    },
+    {
+      "label": "bismillah",
+      "start": 5.84,
+      "end": 9.6,
+      "duration": 3.76
+    },
+    {
+      "label": "ayah_1",
+      "start": 10.8,
+      "end": 21.1,
+      "duration": 10.3
+    },
+    {
+      "label": "ayah_2",
+      "start": 22.42,
+      "end": 51.06,
+      "duration": 28.64
+    },
+    {
+      "label": "ayah_3",
+      "start": 52.18,
+      "end": 62.48,
+      "duration": 10.3
+    },
+    {
+      "label": "ayah_4",
+      "start": 62.8,
+      "end": 79.04,
+      "duration": 16.24
+    },
+    {
+      "label": "ayah_5",
+      "start": 79.46,
+      "end": 107.7,
+      "duration": 28.24
+    },
+    {
+      "label": "ayah_6",
+      "start": 107.86,
+      "end": 133.64,
+      "duration": 25.78
+    },
+    {
+      "label": "ayah_7",
+      "start": 133.82,
+      "end": 151.16,
+      "duration": 17.34
+    },
+    {
+      "label": "ayah_8",
+      "start": 151.28,
+      "end": 174.52,
+      "duration": 23.24
+    },
+    {
+      "label": "ayah_9",
+      "start": 175.18,
+      "end": 207.1,
+      "duration": 31.92
+    },
+    {
+      "label": "ayah_10",
+      "start": 207.28,
+      "end": 227.42,
+      "duration": 20.14
+    },
+    {
+      "label": "ayah_11",
+      "start": 227.7,
+      "end": 259.2,
+      "duration": 31.5
+    }
+  ]
+}

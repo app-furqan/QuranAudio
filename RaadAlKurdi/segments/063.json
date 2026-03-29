@@ -1,0 +1,89 @@
+{
+  "surah": 63,
+  "title": "Al-Munafiqoon",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-063.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 2.02,
+      "duration": 2.02
+    },
+    {
+      "label": "bismillah",
+      "start": 2.02,
+      "end": 8.76,
+      "duration": 6.74
+    },
+    {
+      "label": "ayah_1",
+      "start": 9.22,
+      "end": 42.16,
+      "duration": 32.94
+    },
+    {
+      "label": "ayah_2",
+      "start": 42.54,
+      "end": 64.96,
+      "duration": 22.42
+    },
+    {
+      "label": "ayah_3",
+      "start": 65.04,
+      "end": 79.1,
+      "duration": 14.06
+    },
+    {
+      "label": "ayah_4",
+      "start": 79.44,
+      "end": 115.1,
+      "duration": 35.66
+    },
+    {
+      "label": "ayah_5",
+      "start": 115.14,
+      "end": 133.38,
+      "duration": 18.24
+    },
+    {
+      "label": "ayah_6",
+      "start": 133.44,
+      "end": 156.74,
+      "duration": 23.3
+    },
+    {
+      "label": "ayah_7",
+      "start": 157.16,
+      "end": 185.9,
+      "duration": 28.74
+    },
+    {
+      "label": "ayah_8",
+      "start": 186.82,
+      "end": 215.6,
+      "duration": 28.78
+    },
+    {
+      "label": "ayah_9",
+      "start": 215.64,
+      "end": 241.28,
+      "duration": 25.64
+    },
+    {
+      "label": "ayah_10",
+      "start": 241.6,
+      "end": 274.54,
+      "duration": 32.94
+    },
+    {
+      "label": "ayah_11",
+      "start": 275.3,
+      "end": 296.32,
+      "duration": 21.02
+    }
+  ]
+}

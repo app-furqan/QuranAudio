@@ -1,0 +1,71 @@
+{
+  "surah": 94,
+  "title": "Al-Inshirah",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-094.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.27,
+      "duration": 0.27
+    },
+    {
+      "label": "bismillah",
+      "start": 0.27,
+      "end": 3.57,
+      "duration": 3.3
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.88,
+      "end": 6.8,
+      "duration": 2.92
+    },
+    {
+      "label": "ayah_2",
+      "start": 6.99,
+      "end": 10.27,
+      "duration": 3.28
+    },
+    {
+      "label": "ayah_3",
+      "start": 10.31,
+      "end": 15.37,
+      "duration": 5.06
+    },
+    {
+      "label": "ayah_4",
+      "start": 15.73,
+      "end": 18.8,
+      "duration": 3.07
+    },
+    {
+      "label": "ayah_5",
+      "start": 19.05,
+      "end": 22.6,
+      "duration": 3.55
+    },
+    {
+      "label": "ayah_6",
+      "start": 22.79,
+      "end": 27.32,
+      "duration": 4.53
+    },
+    {
+      "label": "ayah_7",
+      "start": 27.61,
+      "end": 30.87,
+      "duration": 3.26
+    },
+    {
+      "label": "ayah_8",
+      "start": 31.1,
+      "end": 34.94,
+      "duration": 3.84
+    }
+  ]
+}

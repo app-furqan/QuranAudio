@@ -1,0 +1,89 @@
+{
+  "surah": 101,
+  "title": "Al-Qaria",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-101.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.26,
+      "duration": 0.26
+    },
+    {
+      "label": "bismillah",
+      "start": 0.26,
+      "end": 3.82,
+      "duration": 3.56
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.96,
+      "end": 5.02,
+      "duration": 1.06
+    },
+    {
+      "label": "ayah_2",
+      "start": 5.14,
+      "end": 6.5,
+      "duration": 1.36
+    },
+    {
+      "label": "ayah_3",
+      "start": 6.94,
+      "end": 11.7,
+      "duration": 4.76
+    },
+    {
+      "label": "ayah_4",
+      "start": 12.44,
+      "end": 18.4,
+      "duration": 5.96
+    },
+    {
+      "label": "ayah_5",
+      "start": 19.08,
+      "end": 25.06,
+      "duration": 5.98
+    },
+    {
+      "label": "ayah_6",
+      "start": 25.96,
+      "end": 30.78,
+      "duration": 4.82
+    },
+    {
+      "label": "ayah_7",
+      "start": 30.82,
+      "end": 33.96,
+      "duration": 3.14
+    },
+    {
+      "label": "ayah_8",
+      "start": 34.74,
+      "end": 39.74,
+      "duration": 5.0
+    },
+    {
+      "label": "ayah_9",
+      "start": 39.9,
+      "end": 42.54,
+      "duration": 2.64
+    },
+    {
+      "label": "ayah_10",
+      "start": 42.74,
+      "end": 45.48,
+      "duration": 2.74
+    },
+    {
+      "label": "ayah_11",
+      "start": 46.02,
+      "end": 48.44,
+      "duration": 2.42
+    }
+  ]
+}

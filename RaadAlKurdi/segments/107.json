@@ -1,0 +1,65 @@
+{
+  "surah": 107,
+  "title": "Al-Maun",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-107.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.27,
+      "duration": 0.27
+    },
+    {
+      "label": "bismillah",
+      "start": 0.27,
+      "end": 3.74,
+      "duration": 3.46
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.78,
+      "end": 7.75,
+      "duration": 3.97
+    },
+    {
+      "label": "ayah_2",
+      "start": 7.88,
+      "end": 13.84,
+      "duration": 5.96
+    },
+    {
+      "label": "ayah_3",
+      "start": 13.88,
+      "end": 21.08,
+      "duration": 7.2
+    },
+    {
+      "label": "ayah_4",
+      "start": 21.13,
+      "end": 24.09,
+      "duration": 2.96
+    },
+    {
+      "label": "ayah_5",
+      "start": 24.28,
+      "end": 31.82,
+      "duration": 7.54
+    },
+    {
+      "label": "ayah_6",
+      "start": 32.11,
+      "end": 37.15,
+      "duration": 5.04
+    },
+    {
+      "label": "ayah_7",
+      "start": 37.3,
+      "end": 41.83,
+      "duration": 4.53
+    }
+  ]
+}

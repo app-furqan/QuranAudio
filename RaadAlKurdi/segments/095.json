@@ -1,0 +1,71 @@
+{
+  "surah": 95,
+  "title": "At-Tin",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-095.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.27,
+      "duration": 0.27
+    },
+    {
+      "label": "bismillah",
+      "start": 0.27,
+      "end": 3.74,
+      "duration": 3.46
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.78,
+      "end": 6.15,
+      "duration": 2.37
+    },
+    {
+      "label": "ayah_2",
+      "start": 6.28,
+      "end": 8.21,
+      "duration": 1.93
+    },
+    {
+      "label": "ayah_3",
+      "start": 8.34,
+      "end": 11.93,
+      "duration": 3.59
+    },
+    {
+      "label": "ayah_4",
+      "start": 12.58,
+      "end": 19.0,
+      "duration": 6.42
+    },
+    {
+      "label": "ayah_5",
+      "start": 19.66,
+      "end": 25.01,
+      "duration": 5.35
+    },
+    {
+      "label": "ayah_6",
+      "start": 25.2,
+      "end": 35.32,
+      "duration": 10.12
+    },
+    {
+      "label": "ayah_7",
+      "start": 36.16,
+      "end": 40.07,
+      "duration": 3.91
+    },
+    {
+      "label": "ayah_8",
+      "start": 40.24,
+      "end": 45.97,
+      "duration": 5.73
+    }
+  ]
+}

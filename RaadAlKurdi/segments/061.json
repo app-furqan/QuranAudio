@@ -1,0 +1,101 @@
+{
+  "surah": 61,
+  "title": "As-Saff",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-061.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "bismillah",
+      "start": 0.08,
+      "end": 1.64,
+      "duration": 1.55
+    },
+    {
+      "label": "ayah_1",
+      "start": 1.68,
+      "end": 13.27,
+      "duration": 11.59
+    },
+    {
+      "label": "ayah_2",
+      "start": 14.6,
+      "end": 26.12,
+      "duration": 11.52
+    },
+    {
+      "label": "ayah_3",
+      "start": 27.13,
+      "end": 37.84,
+      "duration": 10.71
+    },
+    {
+      "label": "ayah_4",
+      "start": 37.88,
+      "end": 67.47,
+      "duration": 29.59
+    },
+    {
+      "label": "ayah_5",
+      "start": 67.77,
+      "end": 98.57,
+      "duration": 30.8
+    },
+    {
+      "label": "ayah_6",
+      "start": 99.48,
+      "end": 157.42,
+      "duration": 57.94
+    },
+    {
+      "label": "ayah_7",
+      "start": 158.36,
+      "end": 179.55,
+      "duration": 21.19
+    },
+    {
+      "label": "ayah_8",
+      "start": 179.59,
+      "end": 196.41,
+      "duration": 16.82
+    },
+    {
+      "label": "ayah_9",
+      "start": 196.46,
+      "end": 220.08,
+      "duration": 23.62
+    },
+    {
+      "label": "ayah_10",
+      "start": 220.69,
+      "end": 238.2,
+      "duration": 17.51
+    },
+    {
+      "label": "ayah_11",
+      "start": 239.21,
+      "end": 262.69,
+      "duration": 23.48
+    },
+    {
+      "label": "ayah_12",
+      "start": 263.15,
+      "end": 290.49,
+      "duration": 27.34
+    },
+    {
+      "label": "ayah_13",
+      "start": 293.85,
+      "end": 311.24,
+      "duration": 17.39
+    },
+    {
+      "label": "ayah_14",
+      "start": 311.66,
+      "end": 384.68,
+      "duration": 73.02
+    }
+  ]
+}

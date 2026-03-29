@@ -1,0 +1,77 @@
+{
+  "surah": 104,
+  "title": "Al-Humaza",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-104.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.27,
+      "duration": 0.27
+    },
+    {
+      "label": "bismillah",
+      "start": 0.27,
+      "end": 3.15,
+      "duration": 2.88
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.84,
+      "end": 7.88,
+      "duration": 4.04
+    },
+    {
+      "label": "ayah_2",
+      "start": 8.09,
+      "end": 13.67,
+      "duration": 5.58
+    },
+    {
+      "label": "ayah_3",
+      "start": 13.78,
+      "end": 18.31,
+      "duration": 4.53
+    },
+    {
+      "label": "ayah_4",
+      "start": 18.35,
+      "end": 24.49,
+      "duration": 6.14
+    },
+    {
+      "label": "ayah_5",
+      "start": 24.53,
+      "end": 27.76,
+      "duration": 3.23
+    },
+    {
+      "label": "ayah_6",
+      "start": 28.12,
+      "end": 31.92,
+      "duration": 3.8
+    },
+    {
+      "label": "ayah_7",
+      "start": 31.96,
+      "end": 35.85,
+      "duration": 3.89
+    },
+    {
+      "label": "ayah_8",
+      "start": 36.25,
+      "end": 40.99,
+      "duration": 4.74
+    },
+    {
+      "label": "ayah_9",
+      "start": 41.35,
+      "end": 45.23,
+      "duration": 3.88
+    }
+  ]
+}

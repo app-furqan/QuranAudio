@@ -1,0 +1,59 @@
+{
+  "surah": 114,
+  "title": "An-Nas",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-114.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.26,
+      "duration": 0.26
+    },
+    {
+      "label": "bismillah",
+      "start": 0.26,
+      "end": 3.18,
+      "duration": 2.92
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.48,
+      "end": 6.88,
+      "duration": 3.4
+    },
+    {
+      "label": "ayah_2",
+      "start": 7.02,
+      "end": 9.16,
+      "duration": 2.14
+    },
+    {
+      "label": "ayah_3",
+      "start": 9.36,
+      "end": 12.34,
+      "duration": 2.98
+    },
+    {
+      "label": "ayah_4",
+      "start": 13.04,
+      "end": 19.36,
+      "duration": 6.32
+    },
+    {
+      "label": "ayah_5",
+      "start": 20.0,
+      "end": 25.24,
+      "duration": 5.24
+    },
+    {
+      "label": "ayah_6",
+      "start": 25.38,
+      "end": 31.12,
+      "duration": 5.74
+    }
+  ]
+}

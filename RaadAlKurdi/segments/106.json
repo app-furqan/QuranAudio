@@ -1,0 +1,47 @@
+{
+  "surah": 106,
+  "title": "Quraish",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-106.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.26,
+      "duration": 0.26
+    },
+    {
+      "label": "bismillah",
+      "start": 0.26,
+      "end": 3.0,
+      "duration": 2.74
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.68,
+      "end": 5.7,
+      "duration": 2.02
+    },
+    {
+      "label": "ayah_2",
+      "start": 5.74,
+      "end": 13.02,
+      "duration": 7.28
+    },
+    {
+      "label": "ayah_3",
+      "start": 13.62,
+      "end": 16.9,
+      "duration": 3.28
+    },
+    {
+      "label": "ayah_4",
+      "start": 16.94,
+      "end": 27.62,
+      "duration": 10.68
+    }
+  ]
+}

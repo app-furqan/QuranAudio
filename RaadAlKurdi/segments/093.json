@@ -1,0 +1,89 @@
+{
+  "surah": 93,
+  "title": "Ad-Dhuha",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-093.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.26,
+      "duration": 0.26
+    },
+    {
+      "label": "bismillah",
+      "start": 0.26,
+      "end": 3.5,
+      "duration": 3.24
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.62,
+      "end": 4.44,
+      "duration": 0.82
+    },
+    {
+      "label": "ayah_2",
+      "start": 4.76,
+      "end": 7.14,
+      "duration": 2.38
+    },
+    {
+      "label": "ayah_3",
+      "start": 7.32,
+      "end": 11.92,
+      "duration": 4.6
+    },
+    {
+      "label": "ayah_4",
+      "start": 12.18,
+      "end": 16.96,
+      "duration": 4.78
+    },
+    {
+      "label": "ayah_5",
+      "start": 17.0,
+      "end": 21.66,
+      "duration": 4.66
+    },
+    {
+      "label": "ayah_6",
+      "start": 22.18,
+      "end": 26.24,
+      "duration": 4.06
+    },
+    {
+      "label": "ayah_7",
+      "start": 26.56,
+      "end": 32.3,
+      "duration": 5.74
+    },
+    {
+      "label": "ayah_8",
+      "start": 33.08,
+      "end": 38.92,
+      "duration": 5.84
+    },
+    {
+      "label": "ayah_9",
+      "start": 39.72,
+      "end": 43.72,
+      "duration": 4.0
+    },
+    {
+      "label": "ayah_10",
+      "start": 44.36,
+      "end": 50.5,
+      "duration": 6.14
+    },
+    {
+      "label": "ayah_11",
+      "start": 51.12,
+      "end": 56.46,
+      "duration": 5.34
+    }
+  ]
+}

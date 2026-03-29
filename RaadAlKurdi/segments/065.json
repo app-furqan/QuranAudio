@@ -1,0 +1,95 @@
+{
+  "surah": 65,
+  "title": "At-Talaq",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-065.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 2.88,
+      "duration": 2.88
+    },
+    {
+      "label": "bismillah",
+      "start": 2.88,
+      "end": 6.2,
+      "duration": 3.32
+    },
+    {
+      "label": "ayah_1",
+      "start": 6.24,
+      "end": 49.66,
+      "duration": 43.42
+    },
+    {
+      "label": "ayah_2",
+      "start": 50.27,
+      "end": 82.22,
+      "duration": 31.95
+    },
+    {
+      "label": "ayah_3",
+      "start": 82.76,
+      "end": 101.79,
+      "duration": 19.03
+    },
+    {
+      "label": "ayah_4",
+      "start": 102.56,
+      "end": 138.03,
+      "duration": 35.47
+    },
+    {
+      "label": "ayah_5",
+      "start": 138.07,
+      "end": 152.94,
+      "duration": 14.87
+    },
+    {
+      "label": "ayah_6",
+      "start": 153.03,
+      "end": 193.47,
+      "duration": 40.44
+    },
+    {
+      "label": "ayah_7",
+      "start": 193.75,
+      "end": 221.24,
+      "duration": 27.49
+    },
+    {
+      "label": "ayah_8",
+      "start": 221.44,
+      "end": 245.22,
+      "duration": 23.78
+    },
+    {
+      "label": "ayah_9",
+      "start": 246.31,
+      "end": 253.68,
+      "duration": 7.37
+    },
+    {
+      "label": "ayah_10",
+      "start": 254.35,
+      "end": 270.58,
+      "duration": 16.23
+    },
+    {
+      "label": "ayah_11",
+      "start": 270.63,
+      "end": 309.25,
+      "duration": 38.62
+    },
+    {
+      "label": "ayah_12",
+      "start": 309.86,
+      "end": 340.47,
+      "duration": 30.61
+    }
+  ]
+}

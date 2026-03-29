@@ -1,0 +1,137 @@
+{
+  "surah": 96,
+  "title": "Al-Alaq",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-096.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.26,
+      "duration": 0.26
+    },
+    {
+      "label": "bismillah",
+      "start": 0.26,
+      "end": 3.6,
+      "duration": 3.34
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.76,
+      "end": 7.36,
+      "duration": 3.6
+    },
+    {
+      "label": "ayah_2",
+      "start": 7.58,
+      "end": 12.12,
+      "duration": 4.54
+    },
+    {
+      "label": "ayah_3",
+      "start": 12.26,
+      "end": 15.0,
+      "duration": 2.74
+    },
+    {
+      "label": "ayah_4",
+      "start": 15.04,
+      "end": 18.08,
+      "duration": 3.04
+    },
+    {
+      "label": "ayah_5",
+      "start": 18.72,
+      "end": 23.34,
+      "duration": 4.62
+    },
+    {
+      "label": "ayah_6",
+      "start": 24.08,
+      "end": 30.12,
+      "duration": 6.04
+    },
+    {
+      "label": "ayah_7",
+      "start": 30.16,
+      "end": 32.8,
+      "duration": 2.64
+    },
+    {
+      "label": "ayah_8",
+      "start": 33.74,
+      "end": 37.6,
+      "duration": 3.86
+    },
+    {
+      "label": "ayah_9",
+      "start": 37.66,
+      "end": 40.36,
+      "duration": 2.7
+    },
+    {
+      "label": "ayah_10",
+      "start": 40.56,
+      "end": 43.74,
+      "duration": 3.18
+    },
+    {
+      "label": "ayah_11",
+      "start": 44.04,
+      "end": 48.26,
+      "duration": 4.22
+    },
+    {
+      "label": "ayah_12",
+      "start": 48.3,
+      "end": 51.22,
+      "duration": 2.92
+    },
+    {
+      "label": "ayah_13",
+      "start": 51.66,
+      "end": 56.98,
+      "duration": 5.32
+    },
+    {
+      "label": "ayah_14",
+      "start": 57.02,
+      "end": 62.6,
+      "duration": 5.58
+    },
+    {
+      "label": "ayah_15",
+      "start": 63.82,
+      "end": 72.34,
+      "duration": 8.52
+    },
+    {
+      "label": "ayah_16",
+      "start": 72.52,
+      "end": 77.82,
+      "duration": 5.3
+    },
+    {
+      "label": "ayah_17",
+      "start": 77.92,
+      "end": 80.84,
+      "duration": 2.92
+    },
+    {
+      "label": "ayah_18",
+      "start": 80.88,
+      "end": 83.06,
+      "duration": 2.18
+    },
+    {
+      "label": "ayah_19",
+      "start": 83.4,
+      "end": 88.1,
+      "duration": 4.7
+    }
+  ]
+}

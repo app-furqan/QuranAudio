@@ -1,0 +1,41 @@
+{
+  "surah": 108,
+  "title": "Al-Kauther",
+  "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-108.mp3",
+  "alignment_method": "ctc_forced_alignment",
+  "is_complete": true,
+  "coverage": 1.0,
+  "segments": [
+    {
+      "label": "audubillah",
+      "start": 0.0,
+      "end": 0.27,
+      "duration": 0.27
+    },
+    {
+      "label": "bismillah",
+      "start": 0.27,
+      "end": 3.15,
+      "duration": 2.88
+    },
+    {
+      "label": "ayah_1",
+      "start": 3.82,
+      "end": 7.88,
+      "duration": 4.06
+    },
+    {
+      "label": "ayah_2",
+      "start": 8.63,
+      "end": 11.51,
+      "duration": 2.88
+    },
+    {
+      "label": "ayah_3",
+      "start": 12.2,
+      "end": 17.01,
+      "duration": 4.81
+    }
+  ]
+}
