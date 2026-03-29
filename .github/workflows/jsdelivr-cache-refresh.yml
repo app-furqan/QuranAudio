@@ -1,0 +1,75 @@
+name: Refresh jsDelivr Cache
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "RaadAlKurdi/segments/**/*.json"
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Single file path to purge (optional)"
+        required: false
+        default: "RaadAlKurdi/segments/079.json"
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect files to purge
+        id: files
+        shell: bash
+        env:
+          INPUT_FILE: ${{ github.event.inputs.file }}
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          if [[ "$EVENT_NAME" == "workflow_dispatch" && -n "${INPUT_FILE:-}" ]]; then
+            printf '%s\n' "$INPUT_FILE" > files_to_purge.txt
+          else
+            if [[ -n "${BEFORE:-}" && "$BEFORE" != "0000000000000000000000000000000000000000" ]]; then
+              git diff --name-only "$BEFORE" "$SHA" | grep '^RaadAlKurdi/segments/.*\.json$' || true
+            else
+              git show --name-only --pretty='' "$SHA" | grep '^RaadAlKurdi/segments/.*\.json$' || true
+            fi > files_to_purge.txt
+          fi
+
+          sort -u files_to_purge.txt -o files_to_purge.txt
+
+          if [[ ! -s files_to_purge.txt ]]; then
+            echo "No matching JSON files found."
+            echo "count=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Files queued for purge:"
+          cat files_to_purge.txt
+          echo "count=$(wc -l < files_to_purge.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Purge jsDelivr
+        if: steps.files.outputs.count != '0'
+        shell: bash
+        env:
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          while IFS= read -r file; do
+            url="https://purge.jsdelivr.net/gh/${REPO}@main/${file}"
+            echo "Purging: $url"
+            curl -fsSL "$url" >/dev/null
+          done < files_to_purge.txt
+
+          echo "Purge complete."
