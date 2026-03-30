@@ -13,16 +13,46 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Purge jsDelivr (entire repository)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Purge jsDelivr (changed files and key paths)
         shell: bash
         env:
           REPO: ${{ github.repository }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
 
-          root_url="https://purge.jsdelivr.net/gh/${REPO}@main"
+          purge_url_base="https://purge.jsdelivr.net/gh/${REPO}@main"
 
-          echo "Purging repository cache: $root_url"
-          curl -fsSL "$root_url" >/dev/null
+          purge_one() {
+            local rel_path="$1"
+            local url="${purge_url_base}${rel_path}"
+            echo "Purging: $url"
+            curl -fsSL "$url" >/dev/null
+          }
 
-          echo "Repository-wide purge complete."
+          # Always purge root and important directories so index/listing caches are refreshed.
+          purge_one ""
+          purge_one "/RaadAlKurdi"
+          purge_one "/RaadAlKurdi/"
+          purge_one "/RaadAlKurdi/segments"
+          purge_one "/RaadAlKurdi/segments/"
+
+          if [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]]; then
+            echo "Collecting changed files between ${BEFORE} and ${SHA}"
+            mapfile -t changed_files < <(git diff --name-only "${BEFORE}" "${SHA}" || true)
+
+            for file in "${changed_files[@]}"; do
+              [[ -z "$file" ]] && continue
+              purge_one "/${file}"
+            done
+          else
+            echo "No valid BEFORE SHA found (manual run or initial push); purging key paths only."
+          fi
+
+          echo "jsDelivr purge completed."
