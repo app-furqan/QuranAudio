@@ -43,10 +43,28 @@
       "duration": 5.03
     },
     {
-      "label": "ayah_6",
+      "label": "ayah_3_repeat",
       "start": 30.73,
+      "end": 34.36,
+      "duration": 3.63
+    },
+    {
+      "label": "ayah_4_repeat",
+      "start": 34.36,
+      "end": 38.2,
+      "duration": 3.84
+    },
+    {
+      "label": "ayah_5_repeat",
+      "start": 38.2,
+      "end": 42.46,
+      "duration": 4.26
+    },
+    {
+      "label": "ayah_6",
+      "start": 42.46,
       "end": 46.46,
-      "duration": 15.73
+      "duration": 4.0
     },
     {
       "label": "ayah_7",
