@@ -28,15 +28,25 @@ jobs:
         run: |
           set -euo pipefail
 
-          purge_url_base="https://purge.jsdelivr.net/gh/${REPO}@main"
           purged_count=0
+          failed_count=0
 
           purge_one() {
             local rel_path="$1"
-            local url="${purge_url_base}${rel_path}"
-            echo "Purging: $url"
-            curl -fsSL "$url" >/dev/null
-            purged_count=$((purged_count + 1))
+            local base
+
+            for base in \
+              "https://purge.jsdelivr.net/gh/${REPO}@main" \
+              "https://purge.jsdelivr.net/gh/${REPO}"; do
+              local url="${base}${rel_path}"
+              echo "Purging: $url"
+              if curl -fsSL --retry 3 --retry-all-errors --connect-timeout 10 --max-time 30 "$url" >/dev/null; then
+                purged_count=$((purged_count + 1))
+              else
+                failed_count=$((failed_count + 1))
+                echo "Warning: purge failed for $url"
+              fi
+            done
           }
 
           # Purge root and directory paths first so listing/index caches are refreshed.
@@ -63,4 +73,9 @@ jobs:
             purge_one "/${file}"
           done
 
-          echo "jsDelivr changed-file purge completed. Total URLs purged: ${purged_count}"
+          echo "jsDelivr changed-file purge completed. Successful URL purges: ${purged_count}, failed: ${failed_count}"
+
+          if [[ "${failed_count}" -gt 0 ]]; then
+            echo "One or more purge requests failed."
+            exit 1
+          fi
