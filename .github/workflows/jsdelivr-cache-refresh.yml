@@ -5,6 +5,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      full_purge:
+        description: "Purge all tracked files recursively"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: read
@@ -25,6 +34,7 @@ jobs:
           BEFORE: ${{ github.event.before }}
           SHA: ${{ github.sha }}
           EVENT_NAME: ${{ github.event_name }}
+          FULL_PURGE: ${{ github.event.inputs.full_purge || 'false' }}
         run: |
           set -euo pipefail
 
@@ -56,21 +66,53 @@ jobs:
           purge_one "/RaadAlKurdi/segments"
           purge_one "/RaadAlKurdi/segments/"
 
-          changed_files=()
+          changed_paths=()
 
-          if [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
-            echo "Collecting changed files between ${BEFORE} and ${SHA}"
-            mapfile -t changed_files < <(git diff --name-only "${BEFORE}" "${SHA}" || true)
+          collect_from_diff() {
+            local from_ref="$1"
+            local to_ref="$2"
+            local line status rest old_path new_path
+
+            mapfile -t diff_lines < <(git diff --name-status --find-renames "$from_ref" "$to_ref" || true)
+            for line in "${diff_lines[@]}"; do
+              [[ -z "$line" ]] && continue
+              status="${line%%$'\t'*}"
+              rest="${line#*$'\t'}"
+
+              case "$status" in
+                R*|C*)
+                  old_path="${rest%%$'\t'*}"
+                  new_path="${rest#*$'\t'}"
+                  [[ -n "$old_path" ]] && changed_paths+=("$old_path")
+                  [[ -n "$new_path" ]] && changed_paths+=("$new_path")
+                  ;;
+                *)
+                  [[ -n "$rest" ]] && changed_paths+=("$rest")
+                  ;;
+              esac
+            done
+          }
+
+          if [[ "${FULL_PURGE}" == "true" ]]; then
+            echo "Manual full purge requested; collecting all tracked files from ${SHA}"
+            mapfile -t changed_paths < <(git ls-tree -r --name-only "${SHA}")
+          elif [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            echo "Collecting changed paths between ${BEFORE} and ${SHA} (including renamed/deleted paths)"
+            collect_from_diff "${BEFORE}" "${SHA}"
           elif [[ "${EVENT_NAME}" == "workflow_dispatch" ]] && git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
-            echo "Manual run detected; collecting changed files between HEAD~1 and HEAD"
-            mapfile -t changed_files < <(git diff --name-only HEAD~1 HEAD || true)
+            echo "Manual run detected; collecting changed paths between HEAD~1 and HEAD"
+            collect_from_diff HEAD~1 HEAD
           else
             echo "No valid commit range found; purging key paths only."
           fi
 
-          for file in "${changed_files[@]}"; do
+          declare -A seen_paths=()
+          for file in "${changed_paths[@]}"; do
             [[ -z "$file" ]] && continue
-            purge_one "/${file}"
+            if [[ -z "${seen_paths[$file]+x}" ]]; then
+              seen_paths["$file"]=1
+              purge_one "/${file}"
+            fi
           done
 
           echo "jsDelivr changed-file purge completed. Successful URL purges: ${purged_count}, failed: ${failed_count}"
