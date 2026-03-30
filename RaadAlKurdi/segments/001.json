@@ -8,45 +8,45 @@
   "segments": [
     {
       "label": "ayah_1",
-      "start": 4.28,
-      "end": 7.6,
-      "duration": 3.32
+      "start": 0.0,
+      "end": 7.26,
+      "duration": 7.26
     },
     {
       "label": "ayah_2",
-      "start": 7.68,
-      "end": 13.08,
-      "duration": 5.4
+      "start": 7.26,
+      "end": 13.26,
+      "duration": 6.0
     },
     {
       "label": "ayah_3",
-      "start": 13.16,
-      "end": 14.72,
-      "duration": 1.56
+      "start": 13.26,
+      "end": 15.08,
+      "duration": 1.82
     },
     {
       "label": "ayah_4",
-      "start": 14.98,
-      "end": 17.16,
-      "duration": 2.18
+      "start": 15.08,
+      "end": 17.3,
+      "duration": 2.22
     },
     {
       "label": "ayah_5",
-      "start": 17.42,
-      "end": 23.16,
-      "duration": 5.74
+      "start": 17.3,
+      "end": 23.25,
+      "duration": 5.95
     },
     {
       "label": "ayah_6",
-      "start": 23.28,
-      "end": 26.0,
-      "duration": 2.72
+      "start": 23.25,
+      "end": 26.26,
+      "duration": 3.01
     },
     {
       "label": "ayah_7",
-      "start": 26.16,
+      "start": 26.26,
       "end": 45.92,
-      "duration": 19.76
+      "duration": 19.66
     }
   ]
 }
