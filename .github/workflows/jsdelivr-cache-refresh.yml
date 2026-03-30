@@ -18,41 +18,40 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Purge jsDelivr (changed files and key paths)
+      - name: Purge jsDelivr (recursive full repository purge)
         shell: bash
         env:
           REPO: ${{ github.repository }}
-          BEFORE: ${{ github.event.before }}
           SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
 
           purge_url_base="https://purge.jsdelivr.net/gh/${REPO}@main"
+          purge_target_sha="${SHA:-HEAD}"
+
+          purged_count=0
 
           purge_one() {
             local rel_path="$1"
             local url="${purge_url_base}${rel_path}"
             echo "Purging: $url"
             curl -fsSL "$url" >/dev/null
+            purged_count=$((purged_count + 1))
           }
 
-          # Always purge root and important directories so index/listing caches are refreshed.
+          # Purge root and directory paths first so listing/index caches are refreshed.
           purge_one ""
           purge_one "/RaadAlKurdi"
           purge_one "/RaadAlKurdi/"
           purge_one "/RaadAlKurdi/segments"
           purge_one "/RaadAlKurdi/segments/"
 
-          if [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]]; then
-            echo "Collecting changed files between ${BEFORE} and ${SHA}"
-            mapfile -t changed_files < <(git diff --name-only "${BEFORE}" "${SHA}" || true)
+          echo "Collecting all tracked files from ${purge_target_sha}"
+          mapfile -t all_files < <(git ls-tree -r --name-only "${purge_target_sha}")
 
-            for file in "${changed_files[@]}"; do
-              [[ -z "$file" ]] && continue
-              purge_one "/${file}"
-            done
-          else
-            echo "No valid BEFORE SHA found (manual run or initial push); purging key paths only."
-          fi
+          for file in "${all_files[@]}"; do
+            [[ -z "$file" ]] && continue
+            purge_one "/${file}"
+          done
 
-          echo "jsDelivr purge completed."
+          echo "jsDelivr recursive purge completed. Total URLs purged: ${purged_count}"
