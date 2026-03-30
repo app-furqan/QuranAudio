@@ -1,9 +1,6 @@
 name: Refresh jsDelivr Cache
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
