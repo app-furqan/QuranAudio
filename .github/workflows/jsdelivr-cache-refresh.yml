@@ -18,15 +18,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Purge jsDelivr (full recursive refresh)
+      - name: Purge jsDelivr (changed files only)
         shell: bash
         env:
           REPO: ${{ github.repository }}
+          BEFORE: ${{ github.event.before }}
           SHA: ${{ github.sha }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           set -euo pipefail
 
-          purge_target_sha="${SHA:-HEAD}"
           purged_count=0
           failed_count=0
 
@@ -55,15 +56,24 @@ jobs:
           purge_one "/RaadAlKurdi/segments"
           purge_one "/RaadAlKurdi/segments/"
 
-          echo "Collecting all tracked files from ${purge_target_sha}"
-          mapfile -t all_files < <(git ls-tree -r --name-only "${purge_target_sha}")
+          changed_files=()
 
-          for file in "${all_files[@]}"; do
+          if [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            echo "Collecting changed files between ${BEFORE} and ${SHA}"
+            mapfile -t changed_files < <(git diff --name-only "${BEFORE}" "${SHA}" || true)
+          elif [[ "${EVENT_NAME}" == "workflow_dispatch" ]] && git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
+            echo "Manual run detected; collecting changed files between HEAD~1 and HEAD"
+            mapfile -t changed_files < <(git diff --name-only HEAD~1 HEAD || true)
+          else
+            echo "No valid commit range found; purging key paths only."
+          fi
+
+          for file in "${changed_files[@]}"; do
             [[ -z "$file" ]] && continue
             purge_one "/${file}"
           done
 
-          echo "jsDelivr full recursive purge completed. Successful URL purges: ${purged_count}, failed: ${failed_count}"
+          echo "jsDelivr changed-file purge completed. Successful URL purges: ${purged_count}, failed: ${failed_count}"
 
           if [[ "${failed_count}" -gt 0 ]]; then
             echo "One or more purge requests failed."
