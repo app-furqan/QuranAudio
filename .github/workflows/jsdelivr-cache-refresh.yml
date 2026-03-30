@@ -22,12 +22,12 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Purge jsDelivr (changed files only)
+      - name: Purge jsDelivr (batch of 10)
         shell: bash
         env:
           REPO: ${{ github.repository }}
@@ -38,35 +38,37 @@ jobs:
         run: |
           set -euo pipefail
 
-          purged_count=0
-          failed_count=0
+          purge_endpoint="https://purge.jsdelivr.net/"
+          batch_size=10
 
-          purge_one() {
-            local rel_path="$1"
-            local base
+          declare -a changed_paths=()
+          declare -a purge_targets=()
+          declare -A seen_changed=()
+          declare -A seen_targets=()
 
-            for base in \
-              "https://purge.jsdelivr.net/gh/${REPO}@main" \
-              "https://purge.jsdelivr.net/gh/${REPO}"; do
-              local url="${base}${rel_path}"
-              echo "Purging: $url"
-              if curl -fsSL --retry 3 --retry-all-errors --connect-timeout 10 --max-time 30 "$url" >/dev/null; then
-                purged_count=$((purged_count + 1))
-              else
-                failed_count=$((failed_count + 1))
-                echo "Warning: purge failed for $url"
-              fi
-            done
+          add_changed_path() {
+            local p="$1"
+            [[ -z "$p" ]] && return 0
+            if [[ -z "${seen_changed[$p]+x}" ]]; then
+              seen_changed["$p"]=1
+              changed_paths+=("$p")
+            fi
           }
 
-          # Purge root and directory paths first so listing/index caches are refreshed.
-          purge_one ""
-          purge_one "/RaadAlKurdi"
-          purge_one "/RaadAlKurdi/"
-          purge_one "/RaadAlKurdi/segments"
-          purge_one "/RaadAlKurdi/segments/"
+          add_target_pair() {
+            local rel_path="$1"
+            local p1="/gh/${REPO}@main${rel_path}"
+            local p2="/gh/${REPO}${rel_path}"
 
-          changed_paths=()
+            if [[ -z "${seen_targets[$p1]+x}" ]]; then
+              seen_targets["$p1"]=1
+              purge_targets+=("$p1")
+            fi
+            if [[ -z "${seen_targets[$p2]+x}" ]]; then
+              seen_targets["$p2"]=1
+              purge_targets+=("$p2")
+            fi
+          }
 
           collect_from_diff() {
             local from_ref="$1"
@@ -83,41 +85,75 @@ jobs:
                 R*|C*)
                   old_path="${rest%%$'\t'*}"
                   new_path="${rest#*$'\t'}"
-                  [[ -n "$old_path" ]] && changed_paths+=("$old_path")
-                  [[ -n "$new_path" ]] && changed_paths+=("$new_path")
+                  add_changed_path "$old_path"
+                  add_changed_path "$new_path"
                   ;;
                 *)
-                  [[ -n "$rest" ]] && changed_paths+=("$rest")
+                  add_changed_path "$rest"
                   ;;
               esac
             done
           }
 
+          # Always include root and directory paths.
+          add_target_pair ""
+          add_target_pair "/RaadAlKurdi"
+          add_target_pair "/RaadAlKurdi/"
+          add_target_pair "/RaadAlKurdi/segments"
+          add_target_pair "/RaadAlKurdi/segments/"
+
           if [[ "${FULL_PURGE}" == "true" ]]; then
-            echo "Manual full purge requested; collecting all tracked files from ${SHA}"
-            mapfile -t changed_paths < <(git ls-tree -r --name-only "${SHA}")
+            echo "Manual full purge requested."
+            mapfile -t all_files < <(git ls-tree -r --name-only "${SHA}")
+            for file in "${all_files[@]}"; do
+              [[ -z "$file" ]] && continue
+              add_target_pair "/${file}"
+            done
           elif [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
-            echo "Collecting changed paths between ${BEFORE} and ${SHA} (including renamed/deleted paths)"
+            echo "Collecting changed paths between ${BEFORE} and ${SHA}"
             collect_from_diff "${BEFORE}" "${SHA}"
+            for file in "${changed_paths[@]}"; do
+              add_target_pair "/${file}"
+            done
           elif [[ "${EVENT_NAME}" == "workflow_dispatch" ]] && git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
             echo "Manual run detected; collecting changed paths between HEAD~1 and HEAD"
             collect_from_diff HEAD~1 HEAD
+            for file in "${changed_paths[@]}"; do
+              add_target_pair "/${file}"
+            done
           else
-            echo "No valid commit range found; purging key paths only."
+            echo "No valid commit range found; purging only root/directories."
           fi
 
-          declare -A seen_paths=()
-          for file in "${changed_paths[@]}"; do
-            [[ -z "$file" ]] && continue
-            if [[ -z "${seen_paths[$file]+x}" ]]; then
-              seen_paths["$file"]=1
-              purge_one "/${file}"
+          total=${#purge_targets[@]}
+          if [[ "$total" -eq 0 ]]; then
+            echo "No purge targets."
+            exit 0
+          fi
+
+          echo "Purging ${total} jsDelivr paths in batches of ${batch_size}."
+
+          ok=0
+          fail=0
+          i=0
+          while [[ "$i" -lt "$total" ]]; do
+            batch=("${purge_targets[@]:$i:$batch_size}")
+            payload=$(printf '%s\n' "${batch[@]}" | jq -R . | jq -s '{path: .}')
+
+            echo "Submitting batch starting at index ${i} (size ${#batch[@]})."
+            if response=$(curl -fsS -H "content-type: application/json" -d "$payload" "$purge_endpoint"); then
+              ok=$((ok + ${#batch[@]}))
+              echo "Batch accepted: ${response}"
+            else
+              fail=$((fail + ${#batch[@]}))
+              echo "Batch failed at index ${i}."
             fi
+
+            i=$((i + batch_size))
           done
 
-          echo "jsDelivr changed-file purge completed. Successful URL purges: ${purged_count}, failed: ${failed_count}"
+          echo "Purge done. Accepted paths: ${ok}, failed paths: ${fail}."
 
-          if [[ "${failed_count}" -gt 0 ]]; then
-            echo "One or more purge requests failed."
+          if [[ "$fail" -gt 0 ]]; then
             exit 1
           fi
