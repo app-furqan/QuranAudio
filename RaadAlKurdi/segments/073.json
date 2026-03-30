@@ -3,7 +3,6 @@
   "title": "Al-Muzzammil",
   "reciter": "Raad al-Kurdi",
   "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-073.mp3",
-  "alignment_method": "ctc_forced_alignment",
   "is_complete": true,
   "coverage": 1.0,
   "segments": [

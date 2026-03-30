@@ -3,8 +3,6 @@
   "title": "An-Naziat",
   "reciter": "Raad al-Kurdi",
   "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-079.mp3",
-  "alignment_method": "tarteel_whisper_base_ar_quran",
-  "model": "tarteel-ai/whisper-base-ar-quran",
   "is_complete": true,
   "coverage": 1.0,
   "segments": [
