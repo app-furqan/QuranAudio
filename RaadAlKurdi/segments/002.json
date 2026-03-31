@@ -7,1731 +7,1737 @@
   "coverage": 1.0,
   "segments": [
     {
-      "label": "bismillah",
+      "label": "audubillah",
       "start": 0.0,
-      "end": 2.16,
-      "duration": 2.16
+      "end": 2.32,
+      "duration": 2.32
+    },
+    {
+      "label": "bismillah",
+      "start": 2.32,
+      "end": 7.59,
+      "duration": 5.27
     },
     {
       "label": "ayah_1",
-      "start": 2.16,
-      "end": 7.38,
+      "start": 7.59,
+      "end": 12.81,
       "duration": 5.22
     },
     {
       "label": "ayah_2",
-      "start": 7.38,
-      "end": 24.56,
+      "start": 12.81,
+      "end": 29.99,
       "duration": 17.18
     },
     {
       "label": "ayah_3",
-      "start": 24.56,
-      "end": 36.84,
+      "start": 29.99,
+      "end": 42.27,
       "duration": 12.28
     },
     {
       "label": "ayah_4",
-      "start": 36.84,
-      "end": 55.92,
+      "start": 42.27,
+      "end": 61.35,
       "duration": 19.08
     },
     {
       "label": "ayah_5",
-      "start": 55.92,
-      "end": 70.56,
+      "start": 61.35,
+      "end": 75.99,
       "duration": 14.64
     },
     {
       "label": "ayah_6",
-      "start": 70.56,
-      "end": 85.6,
+      "start": 75.99,
+      "end": 91.03,
       "duration": 15.04
     },
     {
       "label": "ayah_7",
-      "start": 85.6,
-      "end": 100.2,
+      "start": 91.03,
+      "end": 105.63,
       "duration": 14.6
     },
     {
       "label": "ayah_8",
-      "start": 100.2,
-      "end": 112.91,
+      "start": 105.63,
+      "end": 118.34,
       "duration": 12.71
     },
     {
       "label": "ayah_9",
-      "start": 112.91,
-      "end": 126.44,
+      "start": 118.34,
+      "end": 131.87,
       "duration": 13.53
     },
     {
       "label": "ayah_10",
-      "start": 126.44,
-      "end": 141.58,
+      "start": 131.87,
+      "end": 147.01,
       "duration": 15.14
     },
     {
       "label": "ayah_11",
-      "start": 141.58,
-      "end": 153.07,
+      "start": 147.01,
+      "end": 158.5,
       "duration": 11.49
     },
     {
       "label": "ayah_12",
-      "start": 153.07,
-      "end": 162.72,
+      "start": 158.5,
+      "end": 168.15,
       "duration": 9.65
     },
     {
       "label": "ayah_13",
-      "start": 162.72,
-      "end": 190.69,
+      "start": 168.15,
+      "end": 196.12,
       "duration": 27.97
     },
     {
       "label": "ayah_14",
-      "start": 190.69,
-      "end": 214.02,
+      "start": 196.12,
+      "end": 219.45,
       "duration": 23.33
     },
     {
       "label": "ayah_15",
-      "start": 214.02,
-      "end": 223.16,
+      "start": 219.45,
+      "end": 228.59,
       "duration": 9.14
     },
     {
       "label": "ayah_16",
-      "start": 223.16,
-      "end": 240.06,
+      "start": 228.59,
+      "end": 245.49,
       "duration": 16.9
     },
     {
       "label": "ayah_17",
-      "start": 240.06,
-      "end": 272.17,
+      "start": 245.49,
+      "end": 277.6,
       "duration": 32.11
     },
     {
       "label": "ayah_18",
-      "start": 272.17,
-      "end": 281.01,
+      "start": 277.6,
+      "end": 286.44,
       "duration": 8.84
     },
     {
       "label": "ayah_19",
-      "start": 281.01,
-      "end": 306.66,
+      "start": 286.44,
+      "end": 312.09,
       "duration": 25.65
     },
     {
       "label": "ayah_20",
-      "start": 306.66,
-      "end": 341.99,
+      "start": 312.09,
+      "end": 347.42,
       "duration": 35.33
     },
     {
       "label": "ayah_21",
-      "start": 341.99,
-      "end": 356.5,
+      "start": 347.42,
+      "end": 361.93,
       "duration": 14.51
     },
     {
       "label": "ayah_22",
-      "start": 356.5,
-      "end": 392.8,
+      "start": 361.93,
+      "end": 398.23,
       "duration": 36.3
     },
     {
       "label": "ayah_23",
-      "start": 392.8,
-      "end": 422.54,
+      "start": 398.23,
+      "end": 427.97,
       "duration": 29.74
     },
     {
       "label": "ayah_24",
-      "start": 422.54,
-      "end": 441.32,
+      "start": 427.97,
+      "end": 446.75,
       "duration": 18.78
     },
     {
       "label": "ayah_25",
-      "start": 441.32,
-      "end": 484.82,
+      "start": 446.75,
+      "end": 490.25,
       "duration": 43.5
     },
     {
       "label": "ayah_26",
-      "start": 484.82,
-      "end": 535.98,
+      "start": 490.25,
+      "end": 541.41,
       "duration": 51.16
     },
     {
       "label": "ayah_27",
-      "start": 535.98,
-      "end": 565.91,
+      "start": 541.41,
+      "end": 571.34,
       "duration": 29.93
     },
     {
       "label": "ayah_28",
-      "start": 565.91,
-      "end": 587.54,
+      "start": 571.34,
+      "end": 592.97,
       "duration": 21.63
     },
     {
       "label": "ayah_29",
-      "start": 587.54,
-      "end": 614.62,
+      "start": 592.97,
+      "end": 620.05,
       "duration": 27.08
     },
     {
       "label": "ayah_30",
-      "start": 614.62,
-      "end": 649.48,
+      "start": 620.05,
+      "end": 654.91,
       "duration": 34.86
     },
     {
       "label": "ayah_31",
-      "start": 649.48,
-      "end": 684.18,
+      "start": 654.91,
+      "end": 689.61,
       "duration": 34.7
     },
     {
       "label": "ayah_32",
-      "start": 684.18,
-      "end": 700.33,
+      "start": 689.61,
+      "end": 705.76,
       "duration": 16.15
     },
     {
       "label": "ayah_33",
-      "start": 700.33,
-      "end": 739.44,
+      "start": 705.76,
+      "end": 744.87,
       "duration": 39.11
     },
     {
       "label": "ayah_34",
-      "start": 739.44,
-      "end": 761.98,
+      "start": 744.87,
+      "end": 767.41,
       "duration": 22.54
     },
     {
       "label": "ayah_35",
-      "start": 761.98,
-      "end": 784.02,
+      "start": 767.41,
+      "end": 789.45,
       "duration": 22.04
     },
     {
       "label": "ayah_36",
-      "start": 784.02,
-      "end": 806.96,
+      "start": 789.45,
+      "end": 812.39,
       "duration": 22.94
     },
     {
       "label": "ayah_37",
-      "start": 806.96,
-      "end": 827.58,
+      "start": 812.39,
+      "end": 833.01,
       "duration": 20.62
     },
     {
       "label": "ayah_38",
-      "start": 827.58,
-      "end": 846.98,
+      "start": 833.01,
+      "end": 852.41,
       "duration": 19.4
     },
     {
       "label": "ayah_39",
-      "start": 846.98,
-      "end": 862.33,
+      "start": 852.41,
+      "end": 867.76,
       "duration": 15.35
     },
     {
       "label": "ayah_40",
-      "start": 862.33,
-      "end": 882.41,
+      "start": 867.76,
+      "end": 887.84,
       "duration": 20.08
     },
     {
       "label": "ayah_41",
-      "start": 882.41,
-      "end": 908.12,
+      "start": 887.84,
+      "end": 913.55,
       "duration": 25.71
     },
     {
       "label": "ayah_42",
-      "start": 908.12,
-      "end": 919.1,
+      "start": 913.55,
+      "end": 924.53,
       "duration": 10.98
     },
     {
       "label": "ayah_43",
-      "start": 919.1,
-      "end": 927.42,
+      "start": 924.53,
+      "end": 932.85,
       "duration": 8.32
     },
     {
       "label": "ayah_44",
-      "start": 927.42,
-      "end": 946.28,
+      "start": 932.85,
+      "end": 951.71,
       "duration": 18.86
     },
     {
       "label": "ayah_45",
-      "start": 946.28,
-      "end": 957.98,
+      "start": 951.71,
+      "end": 963.41,
       "duration": 11.7
     },
     {
       "label": "ayah_46",
-      "start": 957.98,
-      "end": 970.48,
+      "start": 963.41,
+      "end": 975.91,
       "duration": 12.5
     },
     {
       "label": "ayah_47",
-      "start": 970.48,
-      "end": 987.74,
+      "start": 975.91,
+      "end": 993.17,
       "duration": 17.26
     },
     {
       "label": "ayah_48",
-      "start": 987.74,
-      "end": 1010.34,
+      "start": 993.17,
+      "end": 1015.77,
       "duration": 22.6
     },
     {
       "label": "ayah_49",
-      "start": 1010.34,
-      "end": 1041.3,
+      "start": 1015.77,
+      "end": 1046.73,
       "duration": 30.96
     },
     {
       "label": "ayah_50",
-      "start": 1041.3,
-      "end": 1057.27,
+      "start": 1046.73,
+      "end": 1062.7,
       "duration": 15.97
     },
     {
       "label": "ayah_51",
-      "start": 1057.27,
-      "end": 1072.44,
+      "start": 1062.7,
+      "end": 1077.87,
       "duration": 15.17
     },
     {
       "label": "ayah_52",
-      "start": 1072.44,
-      "end": 1084.54,
+      "start": 1077.87,
+      "end": 1089.97,
       "duration": 12.1
     },
     {
       "label": "ayah_53",
-      "start": 1084.54,
-      "end": 1093.74,
+      "start": 1089.97,
+      "end": 1099.17,
       "duration": 9.2
     },
     {
       "label": "ayah_54",
-      "start": 1093.74,
-      "end": 1130.44,
+      "start": 1099.17,
+      "end": 1135.87,
       "duration": 36.7
     },
     {
       "label": "ayah_55",
-      "start": 1130.44,
-      "end": 1147.81,
+      "start": 1135.87,
+      "end": 1153.24,
       "duration": 17.37
     },
     {
       "label": "ayah_56",
-      "start": 1147.81,
-      "end": 1156.54,
+      "start": 1153.24,
+      "end": 1161.97,
       "duration": 8.73
     },
     {
       "label": "ayah_57",
-      "start": 1156.54,
-      "end": 1188.16,
+      "start": 1161.97,
+      "end": 1193.59,
       "duration": 31.62
     },
     {
       "label": "ayah_58",
-      "start": 1188.16,
-      "end": 1214.14,
+      "start": 1193.59,
+      "end": 1219.57,
       "duration": 25.98
     },
     {
       "label": "ayah_59",
-      "start": 1214.14,
-      "end": 1235.6,
+      "start": 1219.57,
+      "end": 1241.03,
       "duration": 21.46
     },
     {
       "label": "ayah_60",
-      "start": 1235.6,
-      "end": 1264.18,
+      "start": 1241.03,
+      "end": 1269.61,
       "duration": 28.58
     },
     {
       "label": "ayah_61",
-      "start": 1264.18,
-      "end": 1349.24,
+      "start": 1269.61,
+      "end": 1354.67,
       "duration": 85.06
     },
     {
       "label": "ayah_62",
-      "start": 1349.24,
-      "end": 1384.58,
+      "start": 1354.67,
+      "end": 1390.01,
       "duration": 35.34
     },
     {
       "label": "ayah_63",
-      "start": 1384.58,
-      "end": 1404.64,
+      "start": 1390.01,
+      "end": 1410.07,
       "duration": 20.06
     },
     {
       "label": "ayah_64",
-      "start": 1404.64,
-      "end": 1422.06,
+      "start": 1410.07,
+      "end": 1427.49,
       "duration": 17.42
     },
     {
       "label": "ayah_65",
-      "start": 1422.06,
-      "end": 1434.72,
+      "start": 1427.49,
+      "end": 1440.15,
       "duration": 12.66
     },
     {
       "label": "ayah_66",
-      "start": 1434.72,
-      "end": 1446.31,
+      "start": 1440.15,
+      "end": 1451.74,
       "duration": 11.59
     },
     {
       "label": "ayah_67",
-      "start": 1446.31,
-      "end": 1469.96,
+      "start": 1451.74,
+      "end": 1475.39,
       "duration": 23.65
     },
     {
       "label": "ayah_68",
-      "start": 1469.96,
-      "end": 1492.42,
+      "start": 1475.39,
+      "end": 1497.85,
       "duration": 22.46
     },
     {
       "label": "ayah_69",
-      "start": 1492.42,
-      "end": 1517.83,
+      "start": 1497.85,
+      "end": 1523.26,
       "duration": 25.41
     },
     {
       "label": "ayah_70",
-      "start": 1517.83,
-      "end": 1537.67,
+      "start": 1523.26,
+      "end": 1543.1,
       "duration": 19.84
     },
     {
       "label": "ayah_71",
-      "start": 1537.67,
-      "end": 1565.18,
+      "start": 1543.1,
+      "end": 1570.61,
       "duration": 27.51
     },
     {
       "label": "ayah_72",
-      "start": 1565.18,
-      "end": 1578.88,
+      "start": 1570.61,
+      "end": 1584.31,
       "duration": 13.7
     },
     {
       "label": "ayah_73",
-      "start": 1578.88,
-      "end": 1592.7,
+      "start": 1584.31,
+      "end": 1598.13,
       "duration": 13.82
     },
     {
       "label": "ayah_74",
-      "start": 1592.7,
-      "end": 1636.55,
+      "start": 1598.13,
+      "end": 1641.98,
       "duration": 43.85
     },
     {
       "label": "ayah_75",
-      "start": 1636.55,
-      "end": 1664.2,
+      "start": 1641.98,
+      "end": 1669.63,
       "duration": 27.65
     },
     {
       "label": "ayah_76",
-      "start": 1664.2,
-      "end": 1706.43,
+      "start": 1669.63,
+      "end": 1711.86,
       "duration": 42.23
     },
     {
       "label": "ayah_77",
-      "start": 1706.43,
-      "end": 1716.72,
+      "start": 1711.86,
+      "end": 1722.15,
       "duration": 10.29
     },
     {
       "label": "ayah_78",
-      "start": 1716.72,
-      "end": 1732.86,
+      "start": 1722.15,
+      "end": 1738.29,
       "duration": 16.14
     },
     {
       "label": "ayah_79",
-      "start": 1732.86,
-      "end": 1770.07,
+      "start": 1738.29,
+      "end": 1775.5,
       "duration": 37.21
     },
     {
       "label": "ayah_80",
-      "start": 1770.07,
-      "end": 1796.82,
+      "start": 1775.5,
+      "end": 1802.25,
       "duration": 26.75
     },
     {
       "label": "ayah_81",
-      "start": 1796.82,
-      "end": 1818.7,
+      "start": 1802.25,
+      "end": 1824.13,
       "duration": 21.88
     },
     {
       "label": "ayah_82",
-      "start": 1818.7,
-      "end": 1841.08,
+      "start": 1824.13,
+      "end": 1846.51,
       "duration": 22.38
     },
     {
       "label": "ayah_83",
-      "start": 1841.08,
-      "end": 1899.04,
+      "start": 1846.51,
+      "end": 1904.47,
       "duration": 57.96
     },
     {
       "label": "ayah_84",
-      "start": 1899.04,
-      "end": 1921.24,
+      "start": 1904.47,
+      "end": 1926.67,
       "duration": 22.2
     },
     {
       "label": "ayah_85",
-      "start": 1921.24,
-      "end": 1994.64,
+      "start": 1926.67,
+      "end": 2000.07,
       "duration": 73.4
     },
     {
       "label": "ayah_86",
-      "start": 1994.64,
-      "end": 2011.72,
+      "start": 2000.07,
+      "end": 2017.15,
       "duration": 17.08
     },
     {
       "label": "ayah_87",
-      "start": 2011.72,
-      "end": 2052.24,
+      "start": 2017.15,
+      "end": 2057.67,
       "duration": 40.52
     },
     {
       "label": "ayah_88",
-      "start": 2052.24,
-      "end": 2066.68,
+      "start": 2057.67,
+      "end": 2072.11,
       "duration": 14.44
     },
     {
       "label": "ayah_89",
-      "start": 2066.68,
-      "end": 2097.9,
+      "start": 2072.11,
+      "end": 2103.33,
       "duration": 31.22
     },
     {
       "label": "ayah_90",
-      "start": 2097.9,
-      "end": 2132.04,
+      "start": 2103.33,
+      "end": 2137.47,
       "duration": 34.14
     },
     {
       "label": "ayah_91",
-      "start": 2132.04,
-      "end": 2174.92,
+      "start": 2137.47,
+      "end": 2180.35,
       "duration": 42.88
     },
     {
       "label": "ayah_92",
-      "start": 2174.92,
-      "end": 2190.52,
+      "start": 2180.35,
+      "end": 2195.95,
       "duration": 15.6
     },
     {
       "label": "ayah_93",
-      "start": 2190.52,
-      "end": 2230.24,
+      "start": 2195.95,
+      "end": 2235.67,
       "duration": 39.72
     },
     {
       "label": "ayah_94",
-      "start": 2230.24,
-      "end": 2250.66,
+      "start": 2235.67,
+      "end": 2256.09,
       "duration": 20.42
     },
     {
       "label": "ayah_95",
-      "start": 2250.66,
-      "end": 2263.74,
+      "start": 2256.09,
+      "end": 2269.17,
       "duration": 13.08
     },
     {
       "label": "ayah_96",
-      "start": 2263.74,
-      "end": 2294.52,
+      "start": 2269.17,
+      "end": 2299.95,
       "duration": 30.78
     },
     {
       "label": "ayah_97",
-      "start": 2294.52,
-      "end": 2324.78,
+      "start": 2299.95,
+      "end": 2330.21,
       "duration": 30.26
     },
     {
       "label": "ayah_98",
-      "start": 2324.78,
-      "end": 2345.56,
+      "start": 2330.21,
+      "end": 2350.99,
       "duration": 20.78
     },
     {
       "label": "ayah_99",
-      "start": 2345.56,
-      "end": 2362.6,
+      "start": 2350.99,
+      "end": 2368.03,
       "duration": 17.04
     },
     {
       "label": "ayah_100",
-      "start": 2362.6,
-      "end": 2375.88,
+      "start": 2368.03,
+      "end": 2381.31,
       "duration": 13.28
     },
     {
       "label": "ayah_101",
-      "start": 2375.88,
-      "end": 2405.36,
+      "start": 2381.31,
+      "end": 2410.79,
       "duration": 29.48
     },
     {
       "label": "ayah_102",
-      "start": 2405.36,
-      "end": 7253.16,
+      "start": 2410.79,
+      "end": 7258.59,
       "duration": 4847.8
     },
     {
       "label": "ayah_103",
-      "start": 7253.16,
-      "end": 7679.69,
+      "start": 7258.59,
+      "end": 7685.12,
       "duration": 426.53
     },
     {
       "label": "ayah_104",
-      "start": 7679.69,
-      "end": 7690.73,
+      "start": 7685.12,
+      "end": 7696.16,
       "duration": 11.04
     },
     {
       "label": "ayah_105",
-      "start": 7690.73,
-      "end": 7979.16,
+      "start": 7696.16,
+      "end": 7984.59,
       "duration": 288.43
     },
     {
       "label": "ayah_106",
-      "start": 7979.16,
-      "end": 8142.78,
+      "start": 7984.59,
+      "end": 8148.21,
       "duration": 163.62
     },
     {
       "label": "ayah_82_repeat",
-      "start": 8142.78,
-      "end": 8159.04,
+      "start": 8148.21,
+      "end": 8164.47,
       "duration": 16.26
     },
     {
       "label": "ayah_107",
-      "start": 8159.04,
-      "end": 8553.39,
+      "start": 8164.47,
+      "end": 8558.82,
       "duration": 394.35
     },
     {
       "label": "ayah_108",
-      "start": 8553.39,
-      "end": 8564.13,
+      "start": 8558.82,
+      "end": 8569.56,
       "duration": 10.74
     },
     {
       "label": "ayah_109",
-      "start": 8564.13,
-      "end": 8564.98,
+      "start": 8569.56,
+      "end": 8570.41,
       "duration": 0.85
     },
     {
       "label": "ayah_110",
-      "start": 8564.98,
-      "end": 8565.13,
+      "start": 8570.41,
+      "end": 8570.56,
       "duration": 0.15
     },
     {
       "label": "ayah_111",
-      "start": 8565.13,
-      "end": 8565.28,
+      "start": 8570.56,
+      "end": 8570.71,
       "duration": 0.15
     },
     {
       "label": "ayah_112",
-      "start": 8565.28,
-      "end": 8566.06,
+      "start": 8570.71,
+      "end": 8571.49,
       "duration": 0.78
     },
     {
       "label": "ayah_113",
-      "start": 8566.06,
-      "end": 8570.43,
+      "start": 8571.49,
+      "end": 8575.86,
       "duration": 4.37
     },
     {
       "label": "ayah_114",
-      "start": 8570.43,
-      "end": 8570.91,
+      "start": 8575.86,
+      "end": 8576.34,
       "duration": 0.48
     },
     {
       "label": "ayah_115",
-      "start": 8570.91,
-      "end": 8571.76,
+      "start": 8576.34,
+      "end": 8577.19,
       "duration": 0.85
     },
     {
       "label": "ayah_116",
-      "start": 8571.76,
-      "end": 8572.92,
+      "start": 8577.19,
+      "end": 8578.35,
       "duration": 1.16
     },
     {
       "label": "ayah_117",
-      "start": 8572.92,
-      "end": 8573.83,
+      "start": 8578.35,
+      "end": 8579.26,
       "duration": 0.91
     },
     {
       "label": "ayah_118",
-      "start": 8573.83,
-      "end": 8575.9,
+      "start": 8579.26,
+      "end": 8581.33,
       "duration": 2.07
     },
     {
       "label": "ayah_119",
-      "start": 8575.9,
-      "end": 8576.41,
+      "start": 8581.33,
+      "end": 8581.84,
       "duration": 0.51
     },
     {
       "label": "ayah_120",
-      "start": 8576.41,
-      "end": 8581.94,
+      "start": 8581.84,
+      "end": 8587.37,
       "duration": 5.53
     },
     {
       "label": "ayah_121",
-      "start": 8581.94,
-      "end": 8584.44,
+      "start": 8587.37,
+      "end": 8589.87,
       "duration": 2.5
     },
     {
       "label": "ayah_122",
-      "start": 8584.44,
-      "end": 8586.7,
+      "start": 8589.87,
+      "end": 8592.13,
       "duration": 2.26
     },
     {
       "label": "ayah_123",
-      "start": 8586.7,
-      "end": 8586.85,
+      "start": 8592.13,
+      "end": 8592.28,
       "duration": 0.15
     },
     {
       "label": "ayah_124",
-      "start": 8586.85,
-      "end": 8587.0,
+      "start": 8592.28,
+      "end": 8592.43,
       "duration": 0.15
     },
     {
       "label": "ayah_125",
-      "start": 8587.0,
-      "end": 8587.15,
+      "start": 8592.43,
+      "end": 8592.58,
       "duration": 0.15
     },
     {
       "label": "ayah_126",
-      "start": 8587.15,
-      "end": 8587.3,
+      "start": 8592.58,
+      "end": 8592.73,
       "duration": 0.15
     },
     {
       "label": "ayah_127",
-      "start": 8587.3,
-      "end": 8587.45,
+      "start": 8592.73,
+      "end": 8592.88,
       "duration": 0.15
     },
     {
       "label": "ayah_128",
-      "start": 8587.45,
-      "end": 8587.6,
+      "start": 8592.88,
+      "end": 8593.03,
       "duration": 0.15
     },
     {
       "label": "ayah_129",
-      "start": 8587.6,
-      "end": 8587.75,
+      "start": 8593.03,
+      "end": 8593.18,
       "duration": 0.15
     },
     {
       "label": "ayah_130",
-      "start": 8587.75,
-      "end": 8587.9,
+      "start": 8593.18,
+      "end": 8593.33,
       "duration": 0.15
     },
     {
       "label": "ayah_131",
-      "start": 8587.9,
-      "end": 8588.05,
+      "start": 8593.33,
+      "end": 8593.48,
       "duration": 0.15
     },
     {
       "label": "ayah_132",
-      "start": 8588.05,
-      "end": 8588.2,
+      "start": 8593.48,
+      "end": 8593.63,
       "duration": 0.15
     },
     {
       "label": "ayah_133",
-      "start": 8588.2,
-      "end": 8588.35,
+      "start": 8593.63,
+      "end": 8593.78,
       "duration": 0.15
     },
     {
       "label": "ayah_134",
-      "start": 8588.35,
-      "end": 8588.5,
+      "start": 8593.78,
+      "end": 8593.93,
       "duration": 0.15
     },
     {
       "label": "ayah_135",
-      "start": 8588.5,
-      "end": 8588.65,
+      "start": 8593.93,
+      "end": 8594.08,
       "duration": 0.15
     },
     {
       "label": "ayah_136",
-      "start": 8588.65,
-      "end": 8588.8,
+      "start": 8594.08,
+      "end": 8594.23,
       "duration": 0.15
     },
     {
       "label": "ayah_137",
-      "start": 8588.8,
-      "end": 8588.95,
+      "start": 8594.23,
+      "end": 8594.38,
       "duration": 0.15
     },
     {
       "label": "ayah_138",
-      "start": 8588.95,
-      "end": 8589.1,
+      "start": 8594.38,
+      "end": 8594.53,
       "duration": 0.15
     },
     {
       "label": "ayah_139",
-      "start": 8589.1,
-      "end": 8589.25,
+      "start": 8594.53,
+      "end": 8594.68,
       "duration": 0.15
     },
     {
       "label": "ayah_140",
-      "start": 8589.25,
-      "end": 8589.4,
+      "start": 8594.68,
+      "end": 8594.83,
       "duration": 0.15
     },
     {
       "label": "ayah_141",
-      "start": 8589.4,
-      "end": 8589.55,
+      "start": 8594.83,
+      "end": 8594.98,
       "duration": 0.15
     },
     {
       "label": "ayah_142",
-      "start": 8589.55,
-      "end": 8589.7,
+      "start": 8594.98,
+      "end": 8595.13,
       "duration": 0.15
     },
     {
       "label": "ayah_143",
-      "start": 8589.7,
-      "end": 8589.85,
+      "start": 8595.13,
+      "end": 8595.28,
       "duration": 0.15
     },
     {
       "label": "ayah_144",
-      "start": 8589.85,
-      "end": 8590.0,
+      "start": 8595.28,
+      "end": 8595.43,
       "duration": 0.15
     },
     {
       "label": "ayah_145",
-      "start": 8590.0,
-      "end": 8590.15,
+      "start": 8595.43,
+      "end": 8595.58,
       "duration": 0.15
     },
     {
       "label": "ayah_146",
-      "start": 8590.15,
-      "end": 8590.3,
+      "start": 8595.58,
+      "end": 8595.73,
       "duration": 0.15
     },
     {
       "label": "ayah_147",
-      "start": 8590.3,
-      "end": 8590.45,
+      "start": 8595.73,
+      "end": 8595.88,
       "duration": 0.15
     },
     {
       "label": "ayah_148",
-      "start": 8590.45,
-      "end": 8590.6,
+      "start": 8595.88,
+      "end": 8596.03,
       "duration": 0.15
     },
     {
       "label": "ayah_149",
-      "start": 8590.6,
-      "end": 8590.75,
+      "start": 8596.03,
+      "end": 8596.18,
       "duration": 0.15
     },
     {
       "label": "ayah_150",
-      "start": 8590.75,
-      "end": 8590.9,
+      "start": 8596.18,
+      "end": 8596.33,
       "duration": 0.15
     },
     {
       "label": "ayah_151",
-      "start": 8590.9,
-      "end": 8591.05,
+      "start": 8596.33,
+      "end": 8596.48,
       "duration": 0.15
     },
     {
       "label": "ayah_152",
-      "start": 8591.05,
-      "end": 8591.2,
+      "start": 8596.48,
+      "end": 8596.63,
       "duration": 0.15
     },
     {
       "label": "ayah_153",
-      "start": 8591.2,
-      "end": 8591.35,
+      "start": 8596.63,
+      "end": 8596.78,
       "duration": 0.15
     },
     {
       "label": "ayah_154",
-      "start": 8591.35,
-      "end": 8591.5,
+      "start": 8596.78,
+      "end": 8596.93,
       "duration": 0.15
     },
     {
       "label": "ayah_155",
-      "start": 8591.5,
-      "end": 8591.65,
+      "start": 8596.93,
+      "end": 8597.08,
       "duration": 0.15
     },
     {
       "label": "ayah_156",
-      "start": 8591.65,
-      "end": 8591.8,
+      "start": 8597.08,
+      "end": 8597.23,
       "duration": 0.15
     },
     {
       "label": "ayah_157",
-      "start": 8591.8,
-      "end": 8591.95,
+      "start": 8597.23,
+      "end": 8597.38,
       "duration": 0.15
     },
     {
       "label": "ayah_158",
-      "start": 8591.95,
-      "end": 8592.1,
+      "start": 8597.38,
+      "end": 8597.53,
       "duration": 0.15
     },
     {
       "label": "ayah_159",
-      "start": 8592.1,
-      "end": 8592.25,
+      "start": 8597.53,
+      "end": 8597.68,
       "duration": 0.15
     },
     {
       "label": "ayah_160",
-      "start": 8592.25,
-      "end": 8592.4,
+      "start": 8597.68,
+      "end": 8597.83,
       "duration": 0.15
     },
     {
       "label": "ayah_161",
-      "start": 8592.4,
-      "end": 8592.55,
+      "start": 8597.83,
+      "end": 8597.98,
       "duration": 0.15
     },
     {
       "label": "ayah_162",
-      "start": 8592.55,
-      "end": 8592.7,
+      "start": 8597.98,
+      "end": 8598.13,
       "duration": 0.15
     },
     {
       "label": "ayah_163",
-      "start": 8592.7,
-      "end": 8592.85,
+      "start": 8598.13,
+      "end": 8598.28,
       "duration": 0.15
     },
     {
       "label": "ayah_164",
-      "start": 8592.85,
-      "end": 8593.0,
+      "start": 8598.28,
+      "end": 8598.43,
       "duration": 0.15
     },
     {
       "label": "ayah_165",
-      "start": 8593.0,
-      "end": 8593.35,
+      "start": 8598.43,
+      "end": 8598.78,
       "duration": 0.35
     },
     {
       "label": "ayah_166",
-      "start": 8593.35,
-      "end": 8593.54,
+      "start": 8598.78,
+      "end": 8598.97,
       "duration": 0.19
     },
     {
       "label": "ayah_167",
-      "start": 8593.54,
-      "end": 8593.89,
+      "start": 8598.97,
+      "end": 8599.32,
       "duration": 0.35
     },
     {
       "label": "ayah_168",
-      "start": 8593.89,
-      "end": 8594.14,
+      "start": 8599.32,
+      "end": 8599.57,
       "duration": 0.25
     },
     {
       "label": "ayah_169",
-      "start": 8594.14,
-      "end": 8594.31,
+      "start": 8599.57,
+      "end": 8599.74,
       "duration": 0.17
     },
     {
       "label": "ayah_170",
-      "start": 8594.31,
-      "end": 8594.65,
+      "start": 8599.74,
+      "end": 8600.08,
       "duration": 0.34
     },
     {
       "label": "ayah_171",
-      "start": 8594.65,
-      "end": 8594.93,
+      "start": 8600.08,
+      "end": 8600.36,
       "duration": 0.28
     },
     {
       "label": "ayah_172",
-      "start": 8594.93,
-      "end": 8595.14,
+      "start": 8600.36,
+      "end": 8600.57,
       "duration": 0.21
     },
     {
       "label": "ayah_173",
-      "start": 8595.14,
-      "end": 8595.53,
+      "start": 8600.57,
+      "end": 8600.96,
       "duration": 0.39
     },
     {
       "label": "ayah_174",
-      "start": 8595.53,
-      "end": 8595.98,
+      "start": 8600.96,
+      "end": 8601.41,
       "duration": 0.45
     },
     {
       "label": "ayah_175",
-      "start": 8595.98,
-      "end": 8596.15,
+      "start": 8601.41,
+      "end": 8601.58,
       "duration": 0.17
     },
     {
       "label": "ayah_176",
-      "start": 8596.15,
-      "end": 8596.36,
+      "start": 8601.58,
+      "end": 8601.79,
       "duration": 0.21
     },
     {
       "label": "ayah_177",
-      "start": 8596.36,
-      "end": 8596.65,
+      "start": 8601.79,
+      "end": 8602.08,
       "duration": 0.29
     },
     {
       "label": "ayah_178",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_179",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_180",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_181",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_182",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_183",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_184",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_185",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_186",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_187",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_188",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_189",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_190",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_191",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_192",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_193",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_194",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_195",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_196",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_197",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_198",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_199",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_200",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_201",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_202",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_203",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_204",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_205",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_206",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_207",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_208",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_209",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_210",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_211",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_212",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_213",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_214",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_215",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_216",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_217",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_218",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_219",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_220",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_221",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_222",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_223",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_224",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_225",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_226",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_227",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_228",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_229",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_230",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_231",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_232",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_233",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_234",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_235",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_236",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_237",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_238",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_239",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_240",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_241",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_242",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_243",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_244",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_245",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_246",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_247",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_248",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_249",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_250",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_251",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_252",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_253",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_254",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_255",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_256",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_257",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_258",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_259",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_260",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_261",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_262",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_263",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_264",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_265",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_266",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_267",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_268",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_269",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_270",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_271",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_272",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_273",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_274",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_275",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_276",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_277",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_278",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_279",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_280",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_281",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_282",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_283",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_284",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_285",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     },
     {
       "label": "ayah_286",
-      "start": 8596.65,
-      "end": 8596.65,
+      "start": 8602.08,
+      "end": 8602.08,
       "duration": 0.0
     }
   ]

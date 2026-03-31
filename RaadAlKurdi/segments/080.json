@@ -9,20 +9,14 @@
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 7.11,
-      "duration": 7.11
+      "end": 15.15,
+      "duration": 15.15
     },
     {
       "label": "bismillah",
-      "start": 7.11,
-      "end": 20.32,
-      "duration": 13.21
-    },
-    {
-      "label": "bismillah",
-      "start": 20.32,
+      "start": 15.15,
       "end": 21.0,
-      "duration": 0.68
+      "duration": 5.85
     },
     {
       "label": "ayah_1",

@@ -9,20 +9,14 @@
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 1.97,
-      "duration": 1.97
+      "end": 5.52,
+      "duration": 5.52
     },
     {
       "label": "bismillah",
-      "start": 1.97,
-      "end": 5.62,
-      "duration": 3.65
-    },
-    {
-      "label": "bismillah",
-      "start": 5.62,
+      "start": 5.52,
       "end": 10.92,
-      "duration": 5.3
+      "duration": 5.4
     },
     {
       "label": "ayah_1",
@@ -435,8 +429,8 @@
     {
       "label": "ayah_69",
       "start": 1316.62,
-      "end": 1336.01,
-      "duration": 19.39
+      "end": 1339.47,
+      "duration": 22.85
     }
   ]
 }

@@ -7,76 +7,82 @@
   "coverage": 1.0,
   "segments": [
     {
-      "label": "bismillah",
+      "label": "audubillah",
       "start": 0.0,
-      "end": 3.15,
-      "duration": 3.15
+      "end": 5.06,
+      "duration": 5.06
+    },
+    {
+      "label": "bismillah",
+      "start": 5.06,
+      "end": 10.37,
+      "duration": 5.31
     },
     {
       "label": "ayah_1",
-      "start": 3.15,
-      "end": 5.3,
+      "start": 10.37,
+      "end": 12.52,
       "duration": 2.15
     },
     {
       "label": "ayah_2",
-      "start": 5.3,
-      "end": 7.08,
+      "start": 12.52,
+      "end": 14.3,
       "duration": 1.78
     },
     {
       "label": "ayah_3",
-      "start": 7.08,
-      "end": 12.58,
+      "start": 14.3,
+      "end": 19.8,
       "duration": 5.5
     },
     {
       "label": "ayah_4",
-      "start": 12.58,
-      "end": 19.16,
+      "start": 19.8,
+      "end": 26.38,
       "duration": 6.58
     },
     {
       "label": "ayah_5",
-      "start": 19.16,
-      "end": 26.08,
+      "start": 26.38,
+      "end": 33.3,
       "duration": 6.92
     },
     {
       "label": "ayah_6",
-      "start": 26.08,
-      "end": 30.95,
+      "start": 33.3,
+      "end": 38.17,
       "duration": 4.87
     },
     {
       "label": "ayah_7",
-      "start": 30.95,
-      "end": 34.84,
+      "start": 38.17,
+      "end": 42.06,
       "duration": 3.89
     },
     {
       "label": "ayah_8",
-      "start": 34.84,
-      "end": 39.29,
+      "start": 42.06,
+      "end": 46.51,
       "duration": 4.45
     },
     {
       "label": "ayah_9",
-      "start": 39.29,
-      "end": 42.83,
+      "start": 46.51,
+      "end": 50.05,
       "duration": 3.54
     },
     {
       "label": "ayah_10",
-      "start": 42.83,
-      "end": 46.22,
+      "start": 50.05,
+      "end": 53.44,
       "duration": 3.39
     },
     {
       "label": "ayah_11",
-      "start": 46.22,
-      "end": 48.46,
-      "duration": 2.24
+      "start": 53.44,
+      "end": 53.44,
+      "duration": 0.0
     }
   ]
 }

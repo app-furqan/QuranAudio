@@ -7,16 +7,22 @@
   "coverage": 1.0,
   "segments": [
     {
-      "label": "bismillah",
+      "label": "audubillah",
       "start": 0.0,
-      "end": 6.05,
-      "duration": 6.05
+      "end": 2.18,
+      "duration": 2.18
+    },
+    {
+      "label": "bismillah",
+      "start": 2.18,
+      "end": 6.24,
+      "duration": 4.06
     },
     {
       "label": "ayah_1",
-      "start": 6.05,
+      "start": 6.24,
       "end": 9.4,
-      "duration": 3.35
+      "duration": 3.16
     },
     {
       "label": "ayah_2",
