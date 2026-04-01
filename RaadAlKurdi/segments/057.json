@@ -1,22 +1,26 @@
 {
   "surah": 57,
-  "title": "Al-Hadid",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-057.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 7.24,
-      "duration": 7.24
+      "end": 2.61,
+      "duration": 2.61
     },
     {
       "label": "bismillah",
-      "start": 7.24,
+      "start": 2.61,
+      "end": 7.46,
+      "duration": 4.85
+    },
+    {
+      "label": "bismillah",
+      "start": 7.46,
       "end": 12.36,
-      "duration": 5.12
+      "duration": 4.9
     },
     {
       "label": "ayah_1",
@@ -27,20 +31,20 @@
     {
       "label": "ayah_2",
       "start": 20.4,
-      "end": 30.83,
-      "duration": 10.43
+      "end": 30.47,
+      "duration": 10.07
     },
     {
       "label": "ayah_3",
-      "start": 30.83,
-      "end": 41.54,
-      "duration": 10.71
+      "start": 30.47,
+      "end": 41.55,
+      "duration": 11.08
     },
     {
       "label": "ayah_4",
-      "start": 41.54,
+      "start": 41.55,
       "end": 74.08,
-      "duration": 32.54
+      "duration": 32.53
     },
     {
       "label": "ayah_5",
@@ -111,14 +115,14 @@
     {
       "label": "ayah_16",
       "start": 351.91,
-      "end": 389.77,
-      "duration": 37.86
+      "end": 389.76,
+      "duration": 37.85
     },
     {
       "label": "ayah_17",
-      "start": 389.77,
+      "start": 389.76,
       "end": 406.16,
-      "duration": 16.39
+      "duration": 16.4
     },
     {
       "label": "ayah_18",
@@ -177,20 +181,20 @@
     {
       "label": "ayah_27",
       "start": 681.26,
-      "end": 747.11,
-      "duration": 65.85
+      "end": 746.68,
+      "duration": 65.42
     },
     {
       "label": "ayah_28",
-      "start": 747.11,
+      "start": 746.68,
       "end": 771.65,
-      "duration": 24.54
+      "duration": 24.97
     },
     {
       "label": "ayah_29",
       "start": 771.65,
-      "end": 805.19,
-      "duration": 33.54
+      "end": 802.93,
+      "duration": 31.28
     }
   ]
 }

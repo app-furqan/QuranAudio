@@ -1,28 +1,20 @@
 {
   "surah": 65,
-  "title": "At-Talaq",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-065.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 5.52,
-      "duration": 5.52
-    },
-    {
       "label": "bismillah",
-      "start": 5.52,
-      "end": 7.08,
-      "duration": 1.56
+      "start": 0.0,
+      "end": 5.33,
+      "duration": 5.33
     },
     {
       "label": "ayah_1",
-      "start": 7.08,
+      "start": 5.33,
       "end": 47.98,
-      "duration": 40.9
+      "duration": 42.65
     },
     {
       "label": "ayah_2",
@@ -57,14 +49,14 @@
     {
       "label": "ayah_7",
       "start": 184.61,
-      "end": 210.83,
-      "duration": 26.22
+      "end": 210.48,
+      "duration": 25.87
     },
     {
       "label": "ayah_8",
-      "start": 210.83,
+      "start": 210.48,
       "end": 234.7,
-      "duration": 23.87
+      "duration": 24.22
     },
     {
       "label": "ayah_9",
@@ -87,8 +79,8 @@
     {
       "label": "ayah_12",
       "start": 295.31,
-      "end": 325.46,
-      "duration": 30.15
+      "end": 324.28,
+      "duration": 28.97
     }
   ]
 }

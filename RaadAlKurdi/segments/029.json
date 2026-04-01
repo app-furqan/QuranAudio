@@ -1,46 +1,50 @@
 {
   "surah": 29,
-  "title": "Al-Ankaboot",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-029.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 5.52,
-      "duration": 5.52
+      "end": 1.97,
+      "duration": 1.97
     },
     {
       "label": "bismillah",
-      "start": 5.52,
+      "start": 1.97,
+      "end": 5.62,
+      "duration": 3.65
+    },
+    {
+      "label": "bismillah",
+      "start": 5.62,
       "end": 10.92,
-      "duration": 5.4
+      "duration": 5.3
     },
     {
       "label": "ayah_1",
       "start": 10.92,
-      "end": 14.83,
-      "duration": 3.91
+      "end": 14.31,
+      "duration": 3.39
     },
     {
       "label": "ayah_2",
-      "start": 14.83,
+      "start": 14.31,
       "end": 29.86,
-      "duration": 15.03
+      "duration": 15.55
     },
     {
       "label": "ayah_3",
       "start": 29.86,
-      "end": 43.39,
-      "duration": 13.53
+      "end": 43.44,
+      "duration": 13.58
     },
     {
       "label": "ayah_4",
-      "start": 43.39,
+      "start": 43.44,
       "end": 55.7,
-      "duration": 12.31
+      "duration": 12.26
     },
     {
       "label": "ayah_5",
@@ -147,14 +151,14 @@
     {
       "label": "ayah_22",
       "start": 367.71,
-      "end": 390.84,
-      "duration": 23.13
+      "end": 389.97,
+      "duration": 22.26
     },
     {
       "label": "ayah_23",
-      "start": 390.84,
+      "start": 389.97,
       "end": 411.73,
-      "duration": 20.89
+      "duration": 21.76
     },
     {
       "label": "ayah_24",
@@ -171,14 +175,14 @@
     {
       "label": "ayah_26",
       "start": 465.02,
-      "end": 479.78,
-      "duration": 14.76
+      "end": 479.85,
+      "duration": 14.83
     },
     {
       "label": "ayah_27",
-      "start": 479.78,
+      "start": 479.85,
       "end": 503.26,
-      "duration": 23.48
+      "duration": 23.41
     },
     {
       "label": "ayah_28",
@@ -207,14 +211,14 @@
     {
       "label": "ayah_32",
       "start": 575.8,
-      "end": 600.49,
-      "duration": 24.69
+      "end": 600.32,
+      "duration": 24.52
     },
     {
       "label": "ayah_33",
-      "start": 600.49,
+      "start": 600.32,
       "end": 629.4,
-      "duration": 28.91
+      "duration": 29.08
     },
     {
       "label": "ayah_34",
@@ -261,14 +265,14 @@
     {
       "label": "ayah_41",
       "start": 772.1,
-      "end": 794.59,
-      "duration": 22.49
+      "end": 794.66,
+      "duration": 22.56
     },
     {
       "label": "ayah_42",
-      "start": 794.59,
+      "start": 794.66,
       "end": 807.76,
-      "duration": 13.17
+      "duration": 13.1
     },
     {
       "label": "ayah_43",
@@ -327,14 +331,14 @@
     {
       "label": "ayah_52",
       "start": 998.04,
-      "end": 1019.41,
-      "duration": 21.37
+      "end": 1019.37,
+      "duration": 21.33
     },
     {
       "label": "ayah_53",
-      "start": 1019.41,
+      "start": 1019.37,
       "end": 1044.72,
-      "duration": 25.31
+      "duration": 25.35
     },
     {
       "label": "ayah_54",
@@ -345,14 +349,14 @@
     {
       "label": "ayah_55",
       "start": 1057.16,
-      "end": 1073.86,
-      "duration": 16.7
+      "end": 1073.92,
+      "duration": 16.76
     },
     {
       "label": "ayah_56",
-      "start": 1073.86,
+      "start": 1073.92,
       "end": 1087.16,
-      "duration": 13.3
+      "duration": 13.24
     },
     {
       "label": "ayah_57",
@@ -429,8 +433,8 @@
     {
       "label": "ayah_69",
       "start": 1316.62,
-      "end": 1339.47,
-      "duration": 22.85
+      "end": 1336.01,
+      "duration": 19.39
     }
   ]
 }

@@ -1,28 +1,20 @@
 {
   "surah": 85,
-  "title": "Al-Burooj",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-085.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 0.92,
-      "duration": 0.92
-    },
-    {
       "label": "bismillah",
-      "start": 0.92,
-      "end": 3.64,
-      "duration": 2.72
+      "start": 0.0,
+      "end": 3.04,
+      "duration": 3.04
     },
     {
       "label": "ayah_1",
-      "start": 3.64,
+      "start": 3.04,
       "end": 8.42,
-      "duration": 4.78
+      "duration": 5.38
     },
     {
       "label": "ayah_2",
@@ -123,32 +115,32 @@
     {
       "label": "ayah_18",
       "start": 145.12,
-      "end": 150.29,
-      "duration": 5.17
+      "end": 150.21,
+      "duration": 5.09
     },
     {
       "label": "ayah_19",
-      "start": 150.29,
+      "start": 150.21,
       "end": 157.12,
-      "duration": 6.83
+      "duration": 6.91
     },
     {
       "label": "ayah_20",
       "start": 157.12,
-      "end": 166.23,
-      "duration": 9.11
+      "end": 165.67,
+      "duration": 8.55
     },
     {
       "label": "ayah_21",
-      "start": 166.23,
+      "start": 165.67,
       "end": 171.94,
-      "duration": 5.71
+      "duration": 6.27
     },
     {
       "label": "ayah_22",
       "start": 171.94,
-      "end": 178.8,
-      "duration": 6.86
+      "end": 177.68,
+      "duration": 5.74
     }
   ]
 }

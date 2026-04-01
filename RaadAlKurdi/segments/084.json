@@ -1,22 +1,26 @@
 {
   "surah": 84,
-  "title": "Al-Inshiqaq",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-084.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 6.32,
-      "duration": 6.32
+      "end": 2.26,
+      "duration": 2.26
     },
     {
       "label": "bismillah",
-      "start": 6.32,
+      "start": 2.26,
+      "end": 6.46,
+      "duration": 4.2
+    },
+    {
+      "label": "bismillah",
+      "start": 6.46,
       "end": 14.74,
-      "duration": 8.42
+      "duration": 8.28
     },
     {
       "label": "ayah_1",
@@ -39,20 +43,20 @@
     {
       "label": "ayah_4",
       "start": 32.46,
-      "end": 37.58,
-      "duration": 5.12
+      "end": 37.57,
+      "duration": 5.11
     },
     {
       "label": "ayah_5",
-      "start": 37.58,
-      "end": 44.01,
-      "duration": 6.43
+      "start": 37.57,
+      "end": 43.74,
+      "duration": 6.17
     },
     {
       "label": "ayah_6",
-      "start": 44.01,
+      "start": 43.74,
       "end": 71.94,
-      "duration": 27.93
+      "duration": 28.2
     },
     {
       "label": "ayah_7",
@@ -93,14 +97,14 @@
     {
       "label": "ayah_13",
       "start": 124.0,
-      "end": 135.91,
-      "duration": 11.91
+      "end": 135.4,
+      "duration": 11.4
     },
     {
       "label": "ayah_14",
-      "start": 135.91,
+      "start": 135.4,
       "end": 144.06,
-      "duration": 8.15
+      "duration": 8.66
     },
     {
       "label": "ayah_15",

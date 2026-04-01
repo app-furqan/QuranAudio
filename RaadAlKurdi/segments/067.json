@@ -1,22 +1,14 @@
 {
   "surah": 67,
-  "title": "Al-Mulk",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-067.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 4.36,
-      "duration": 4.36
-    },
-    {
       "label": "bismillah",
-      "start": 4.36,
+      "start": 0.0,
       "end": 44.98,
-      "duration": 40.62
+      "duration": 44.98
     },
     {
       "label": "ayah_1",
@@ -33,14 +25,14 @@
     {
       "label": "ayah_3",
       "start": 59.36,
-      "end": 74.6,
-      "duration": 15.24
+      "end": 74.7,
+      "duration": 15.34
     },
     {
       "label": "ayah_4",
-      "start": 74.6,
+      "start": 74.7,
       "end": 84.46,
-      "duration": 9.86
+      "duration": 9.76
     },
     {
       "label": "ayah_5",
@@ -57,14 +49,14 @@
     {
       "label": "ayah_7",
       "start": 111.02,
-      "end": 119.36,
-      "duration": 8.34
+      "end": 118.77,
+      "duration": 7.75
     },
     {
       "label": "ayah_8",
-      "start": 119.36,
+      "start": 118.77,
       "end": 134.58,
-      "duration": 15.22
+      "duration": 15.81
     },
     {
       "label": "ayah_9",
@@ -135,14 +127,14 @@
     {
       "label": "ayah_20",
       "start": 281.3,
-      "end": 298.68,
-      "duration": 17.38
+      "end": 298.18,
+      "duration": 16.88
     },
     {
       "label": "ayah_21",
-      "start": 298.68,
+      "start": 298.18,
       "end": 310.08,
-      "duration": 11.4
+      "duration": 11.9
     },
     {
       "label": "ayah_22",
@@ -195,8 +187,8 @@
     {
       "label": "ayah_30",
       "start": 399.91,
-      "end": 421.24,
-      "duration": 21.33
+      "end": 419.84,
+      "duration": 19.93
     }
   ]
 }

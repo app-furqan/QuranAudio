@@ -1,28 +1,20 @@
 {
   "surah": 34,
-  "title": "Saba",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-034.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 7.55,
-      "duration": 7.55
-    },
-    {
       "label": "bismillah",
-      "start": 7.55,
-      "end": 14.77,
-      "duration": 7.22
+      "start": 0.0,
+      "end": 5.36,
+      "duration": 5.36
     },
     {
       "label": "ayah_1",
-      "start": 14.77,
+      "start": 5.36,
       "end": 45.02,
-      "duration": 30.25
+      "duration": 39.66
     },
     {
       "label": "ayah_2",
@@ -39,14 +31,14 @@
     {
       "label": "ayah_4",
       "start": 116.3,
-      "end": 134.52,
-      "duration": 18.22
+      "end": 134.65,
+      "duration": 18.35
     },
     {
       "label": "ayah_5",
-      "start": 134.52,
+      "start": 134.65,
       "end": 151.77,
-      "duration": 17.25
+      "duration": 17.12
     },
     {
       "label": "ayah_6",
@@ -249,14 +241,14 @@
     {
       "label": "ayah_39",
       "start": 1020.2,
-      "end": 1045.73,
-      "duration": 25.53
+      "end": 1045.86,
+      "duration": 25.66
     },
     {
       "label": "ayah_40",
-      "start": 1045.73,
+      "start": 1045.86,
       "end": 1068.14,
-      "duration": 22.41
+      "duration": 22.28
     },
     {
       "label": "ayah_41",

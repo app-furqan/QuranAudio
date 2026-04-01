@@ -1,22 +1,26 @@
 {
   "surah": 80,
-  "title": "Abasa",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-080.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 15.15,
-      "duration": 15.15
+      "end": 7.11,
+      "duration": 7.11
     },
     {
       "label": "bismillah",
-      "start": 15.15,
+      "start": 7.11,
+      "end": 20.32,
+      "duration": 13.21
+    },
+    {
+      "label": "bismillah",
+      "start": 20.32,
       "end": 21.0,
-      "duration": 5.85
+      "duration": 0.68
     },
     {
       "label": "ayah_1",
@@ -111,14 +115,14 @@
     {
       "label": "ayah_16",
       "start": 101.35,
-      "end": 106.72,
-      "duration": 5.37
+      "end": 106.68,
+      "duration": 5.33
     },
     {
       "label": "ayah_17",
-      "start": 106.72,
+      "start": 106.68,
       "end": 115.9,
-      "duration": 9.18
+      "duration": 9.22
     },
     {
       "label": "ayah_18",
@@ -177,14 +181,14 @@
     {
       "label": "ayah_27",
       "start": 173.73,
-      "end": 179.7,
-      "duration": 5.97
+      "end": 179.38,
+      "duration": 5.65
     },
     {
       "label": "ayah_28",
-      "start": 179.7,
+      "start": 179.38,
       "end": 184.2,
-      "duration": 4.5
+      "duration": 4.82
     },
     {
       "label": "ayah_29",
@@ -237,14 +241,14 @@
     {
       "label": "ayah_37",
       "start": 230.54,
-      "end": 241.15,
-      "duration": 10.61
+      "end": 240.84,
+      "duration": 10.3
     },
     {
       "label": "ayah_38",
-      "start": 241.15,
+      "start": 240.84,
       "end": 247.92,
-      "duration": 6.77
+      "duration": 7.08
     },
     {
       "label": "ayah_39",

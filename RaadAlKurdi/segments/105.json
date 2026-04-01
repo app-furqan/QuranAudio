@@ -1,28 +1,20 @@
 {
   "surah": 105,
-  "title": "Al-Fil",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-105.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 0.92,
-      "duration": 0.92
-    },
-    {
       "label": "bismillah",
-      "start": 0.92,
-      "end": 3.26,
-      "duration": 2.34
+      "start": 0.0,
+      "end": 2.99,
+      "duration": 2.99
     },
     {
       "label": "ayah_1",
-      "start": 3.26,
+      "start": 2.99,
       "end": 10.86,
-      "duration": 7.6
+      "duration": 7.87
     },
     {
       "label": "ayah_2",
@@ -45,8 +37,8 @@
     {
       "label": "ayah_5",
       "start": 32.74,
-      "end": 39.39,
-      "duration": 6.65
+      "end": 38.71,
+      "duration": 5.97
     }
   ]
 }

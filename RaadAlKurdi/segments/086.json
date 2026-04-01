@@ -1,124 +1,116 @@
 {
   "surah": 86,
-  "title": "At-Tariq",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-086.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 13.05,
-      "duration": 13.05
-    },
-    {
       "label": "bismillah",
-      "start": 13.05,
-      "end": 19.11,
-      "duration": 6.06
+      "start": 0.0,
+      "end": 0.69,
+      "duration": 0.69
     },
     {
       "label": "ayah_1",
-      "start": 19.11,
-      "end": 23.94,
+      "start": 0.69,
+      "end": 5.52,
       "duration": 4.83
     },
     {
       "label": "ayah_2",
-      "start": 23.94,
-      "end": 29.22,
+      "start": 5.52,
+      "end": 10.8,
       "duration": 5.28
     },
     {
       "label": "ayah_3",
-      "start": 29.22,
-      "end": 32.62,
+      "start": 10.8,
+      "end": 14.2,
       "duration": 3.4
     },
     {
       "label": "ayah_4",
-      "start": 32.62,
-      "end": 40.52,
+      "start": 14.2,
+      "end": 22.1,
       "duration": 7.9
     },
     {
       "label": "ayah_5",
-      "start": 40.52,
-      "end": 47.92,
+      "start": 22.1,
+      "end": 29.5,
       "duration": 7.4
     },
     {
       "label": "ayah_6",
-      "start": 47.92,
-      "end": 57.44,
-      "duration": 9.52
+      "start": 29.5,
+      "end": 38.7,
+      "duration": 9.2
     },
     {
       "label": "ayah_7",
-      "start": 57.44,
-      "end": 65.92,
-      "duration": 8.48
+      "start": 38.7,
+      "end": 47.48,
+      "duration": 8.78
     },
     {
       "label": "ayah_8",
-      "start": 65.92,
-      "end": 74.6,
-      "duration": 8.68
+      "start": 47.48,
+      "end": 56.18,
+      "duration": 8.7
     },
     {
       "label": "ayah_9",
-      "start": 74.6,
-      "end": 79.32,
+      "start": 56.18,
+      "end": 60.9,
       "duration": 4.72
     },
     {
       "label": "ayah_10",
-      "start": 79.32,
-      "end": 88.2,
+      "start": 60.9,
+      "end": 69.78,
       "duration": 8.88
     },
     {
       "label": "ayah_11",
-      "start": 88.2,
-      "end": 95.5,
+      "start": 69.78,
+      "end": 77.08,
       "duration": 7.3
     },
     {
       "label": "ayah_12",
-      "start": 95.5,
-      "end": 99.38,
+      "start": 77.08,
+      "end": 80.96,
       "duration": 3.88
     },
     {
       "label": "ayah_13",
-      "start": 99.38,
-      "end": 104.46,
+      "start": 80.96,
+      "end": 86.04,
       "duration": 5.08
     },
     {
       "label": "ayah_14",
-      "start": 104.46,
-      "end": 107.68,
-      "duration": 3.22
+      "start": 86.04,
+      "end": 88.95,
+      "duration": 2.91
     },
     {
       "label": "ayah_15",
-      "start": 107.68,
-      "end": 113.12,
-      "duration": 5.44
+      "start": 88.95,
+      "end": 94.7,
+      "duration": 5.75
     },
     {
       "label": "ayah_16",
-      "start": 113.12,
-      "end": 116.78,
+      "start": 94.7,
+      "end": 98.36,
       "duration": 3.66
     },
     {
       "label": "ayah_17",
-      "start": 116.78,
-      "end": 116.78,
-      "duration": 0.0
+      "start": 98.36,
+      "end": 107.59,
+      "duration": 9.23
     }
   ]
 }

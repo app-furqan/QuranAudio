@@ -1,40 +1,32 @@
 {
   "surah": 100,
-  "title": "Al-Adiyat",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-100.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 0.92,
-      "duration": 0.92
-    },
-    {
       "label": "bismillah",
-      "start": 0.92,
-      "end": 3.68,
-      "duration": 2.76
+      "start": 0.0,
+      "end": 3.09,
+      "duration": 3.09
     },
     {
       "label": "ayah_1",
-      "start": 3.68,
+      "start": 3.09,
       "end": 6.62,
-      "duration": 2.94
+      "duration": 3.53
     },
     {
       "label": "ayah_2",
       "start": 6.62,
-      "end": 9.87,
-      "duration": 3.25
+      "end": 9.33,
+      "duration": 2.71
     },
     {
       "label": "ayah_3",
-      "start": 9.87,
+      "start": 9.33,
       "end": 13.5,
-      "duration": 3.63
+      "duration": 4.17
     },
     {
       "label": "ayah_4",
@@ -81,8 +73,8 @@
     {
       "label": "ayah_11",
       "start": 49.35,
-      "end": 58.4,
-      "duration": 9.05
+      "end": 57.68,
+      "duration": 8.33
     }
   ]
 }

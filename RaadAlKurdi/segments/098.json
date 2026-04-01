@@ -1,28 +1,20 @@
 {
   "surah": 98,
-  "title": "Al-Bayyina",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-098.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 9.59,
-      "duration": 9.59
-    },
-    {
       "label": "bismillah",
-      "start": 9.59,
-      "end": 14.35,
-      "duration": 4.76
+      "start": 0.0,
+      "end": 3.01,
+      "duration": 3.01
     },
     {
       "label": "ayah_1",
-      "start": 14.35,
+      "start": 3.01,
       "end": 16.15,
-      "duration": 1.8
+      "duration": 13.14
     },
     {
       "label": "ayah_2",
@@ -63,8 +55,8 @@
     {
       "label": "ayah_8",
       "start": 85.62,
-      "end": 109.51,
-      "duration": 23.89
+      "end": 108.67,
+      "duration": 23.05
     }
   ]
 }

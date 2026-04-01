@@ -1,52 +1,44 @@
 {
   "surah": 71,
-  "title": "Nooh",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-071.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 1.68,
-      "duration": 1.68
-    },
-    {
       "label": "bismillah",
-      "start": 1.68,
-      "end": 6.34,
-      "duration": 4.66
+      "start": 0.0,
+      "end": 4.7,
+      "duration": 4.7
     },
     {
       "label": "ayah_1",
-      "start": 6.34,
+      "start": 4.7,
       "end": 23.88,
-      "duration": 17.54
+      "duration": 19.18
     },
     {
       "label": "ayah_2",
       "start": 23.88,
-      "end": 30.93,
-      "duration": 7.05
+      "end": 30.61,
+      "duration": 6.73
     },
     {
       "label": "ayah_3",
-      "start": 30.93,
+      "start": 30.61,
       "end": 38.34,
-      "duration": 7.41
+      "duration": 7.73
     },
     {
       "label": "ayah_4",
       "start": 38.34,
-      "end": 60.38,
-      "duration": 22.04
+      "end": 60.21,
+      "duration": 21.87
     },
     {
       "label": "ayah_5",
-      "start": 60.38,
+      "start": 60.21,
       "end": 69.06,
-      "duration": 8.68
+      "duration": 8.85
     },
     {
       "label": "ayah_6",
@@ -183,8 +175,8 @@
     {
       "label": "ayah_28",
       "start": 299.26,
-      "end": 322.46,
-      "duration": 23.2
+      "end": 321.15,
+      "duration": 21.89
     }
   ]
 }

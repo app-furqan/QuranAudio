@@ -1,28 +1,20 @@
 {
   "surah": 99,
-  "title": "Az-Zalzala",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-099.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 0.92,
-      "duration": 0.92
-    },
-    {
       "label": "bismillah",
-      "start": 0.92,
-      "end": 3.26,
-      "duration": 2.34
+      "start": 0.0,
+      "end": 3.1,
+      "duration": 3.1
     },
     {
       "label": "ayah_1",
-      "start": 3.26,
+      "start": 3.1,
       "end": 7.54,
-      "duration": 4.28
+      "duration": 4.44
     },
     {
       "label": "ayah_2",
@@ -63,8 +55,8 @@
     {
       "label": "ayah_8",
       "start": 41.72,
-      "end": 50.18,
-      "duration": 8.46
+      "end": 49.48,
+      "duration": 7.76
     }
   ]
 }

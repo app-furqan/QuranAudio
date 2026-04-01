@@ -1,28 +1,20 @@
 {
   "surah": 60,
-  "title": "Al-Mumtahina",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-060.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 2.3,
-      "duration": 2.3
-    },
-    {
       "label": "bismillah",
-      "start": 2.3,
-      "end": 5.4,
-      "duration": 3.1
+      "start": 0.0,
+      "end": 4.85,
+      "duration": 4.85
     },
     {
       "label": "ayah_1",
-      "start": 5.4,
+      "start": 4.85,
       "end": 78.64,
-      "duration": 73.24
+      "duration": 73.79
     },
     {
       "label": "ayah_2",
@@ -69,32 +61,32 @@
     {
       "label": "ayah_9",
       "start": 296.1,
-      "end": 331.86,
-      "duration": 35.76
+      "end": 331.83,
+      "duration": 35.73
     },
     {
       "label": "ayah_10",
-      "start": 331.86,
+      "start": 331.83,
       "end": 415.15,
-      "duration": 83.29
+      "duration": 83.32
     },
     {
       "label": "ayah_11",
       "start": 415.15,
-      "end": 449.12,
-      "duration": 33.97
+      "end": 449.05,
+      "duration": 33.9
     },
     {
       "label": "ayah_12",
-      "start": 449.12,
-      "end": 510.58,
-      "duration": 61.46
+      "start": 449.05,
+      "end": 510.89,
+      "duration": 61.84
     },
     {
       "label": "ayah_13",
-      "start": 510.58,
+      "start": 510.89,
       "end": 547.56,
-      "duration": 36.98
+      "duration": 36.67
     }
   ]
 }

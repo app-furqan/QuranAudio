@@ -1,28 +1,20 @@
 {
   "surah": 66,
-  "title": "At-Tahrim",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-066.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 8.17,
-      "duration": 8.17
-    },
-    {
       "label": "bismillah",
-      "start": 8.17,
-      "end": 17.25,
-      "duration": 9.08
+      "start": 0.0,
+      "end": 4.37,
+      "duration": 4.37
     },
     {
       "label": "ayah_1",
-      "start": 17.25,
+      "start": 4.37,
       "end": 17.42,
-      "duration": 0.17
+      "duration": 13.05
     },
     {
       "label": "ayah_2",
@@ -45,38 +37,38 @@
     {
       "label": "ayah_5",
       "start": 78.77,
-      "end": 107.38,
-      "duration": 28.61
+      "end": 107.35,
+      "duration": 28.58
     },
     {
       "label": "ayah_6",
-      "start": 107.38,
-      "end": 135.79,
+      "start": 107.35,
+      "end": 135.76,
       "duration": 28.41
     },
     {
       "label": "ayah_7",
-      "start": 135.79,
-      "end": 150.35,
-      "duration": 14.56
+      "start": 135.76,
+      "end": 149.86,
+      "duration": 14.1
     },
     {
       "label": "ayah_8",
-      "start": 150.35,
-      "end": 197.42,
-      "duration": 47.07
+      "start": 149.86,
+      "end": 197.39,
+      "duration": 47.53
     },
     {
       "label": "ayah_9",
-      "start": 197.42,
-      "end": 212.19,
-      "duration": 14.77
+      "start": 197.39,
+      "end": 211.18,
+      "duration": 13.79
     },
     {
       "label": "ayah_10",
-      "start": 212.19,
+      "start": 211.18,
       "end": 240.52,
-      "duration": 28.33
+      "duration": 29.34
     },
     {
       "label": "ayah_11",
@@ -87,8 +79,8 @@
     {
       "label": "ayah_12",
       "start": 263.16,
-      "end": 293.18,
-      "duration": 30.02
+      "end": 292.05,
+      "duration": 28.89
     }
   ]
 }

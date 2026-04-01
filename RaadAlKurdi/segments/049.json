@@ -1,34 +1,38 @@
 {
   "surah": 49,
-  "title": "Al-Hujraat",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-049.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 2.88,
-      "duration": 2.88
+      "end": 1.03,
+      "duration": 1.03
     },
     {
       "label": "bismillah",
-      "start": 2.88,
+      "start": 1.03,
+      "end": 2.94,
+      "duration": 1.91
+    },
+    {
+      "label": "bismillah",
+      "start": 2.94,
       "end": 5.9,
-      "duration": 3.02
+      "duration": 2.96
     },
     {
       "label": "ayah_1",
       "start": 5.9,
-      "end": 19.93,
-      "duration": 14.03
+      "end": 19.91,
+      "duration": 14.01
     },
     {
       "label": "ayah_2",
-      "start": 19.93,
+      "start": 19.91,
       "end": 42.5,
-      "duration": 22.57
+      "duration": 22.59
     },
     {
       "label": "ayah_3",
@@ -45,14 +49,14 @@
     {
       "label": "ayah_5",
       "start": 76.16,
-      "end": 88.7,
-      "duration": 12.54
+      "end": 88.69,
+      "duration": 12.53
     },
     {
       "label": "ayah_6",
-      "start": 88.7,
+      "start": 88.69,
       "end": 112.1,
-      "duration": 23.4
+      "duration": 23.41
     },
     {
       "label": "ayah_7",
@@ -75,26 +79,26 @@
     {
       "label": "ayah_10",
       "start": 194.24,
-      "end": 208.43,
-      "duration": 14.19
+      "end": 208.4,
+      "duration": 14.16
     },
     {
       "label": "ayah_11",
-      "start": 208.43,
-      "end": 254.53,
-      "duration": 46.1
+      "start": 208.4,
+      "end": 254.56,
+      "duration": 46.16
     },
     {
       "label": "ayah_12",
-      "start": 254.53,
-      "end": 289.07,
-      "duration": 34.54
+      "start": 254.56,
+      "end": 289.0,
+      "duration": 34.44
     },
     {
       "label": "ayah_13",
-      "start": 289.07,
+      "start": 289.0,
       "end": 321.4,
-      "duration": 32.33
+      "duration": 32.4
     },
     {
       "label": "ayah_14",

@@ -1,28 +1,20 @@
 {
   "surah": 58,
-  "title": "Al-Mujadila",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-058.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 2.1,
-      "duration": 2.1
-    },
-    {
       "label": "bismillah",
-      "start": 2.1,
-      "end": 4.66,
-      "duration": 2.56
+      "start": 0.0,
+      "end": 4.11,
+      "duration": 4.11
     },
     {
       "label": "ayah_1",
-      "start": 4.66,
+      "start": 4.11,
       "end": 27.24,
-      "duration": 22.58
+      "duration": 23.13
     },
     {
       "label": "ayah_2",
@@ -63,32 +55,32 @@
     {
       "label": "ayah_8",
       "start": 234.88,
-      "end": 294.31,
-      "duration": 59.43
+      "end": 294.24,
+      "duration": 59.36
     },
     {
       "label": "ayah_9",
-      "start": 294.31,
+      "start": 294.24,
       "end": 320.6,
-      "duration": 26.29
+      "duration": 26.36
     },
     {
       "label": "ayah_10",
       "start": 320.6,
-      "end": 349.05,
-      "duration": 28.45
+      "end": 349.01,
+      "duration": 28.41
     },
     {
       "label": "ayah_11",
-      "start": 349.05,
-      "end": 399.53,
-      "duration": 50.48
+      "start": 349.01,
+      "end": 399.47,
+      "duration": 50.46
     },
     {
       "label": "ayah_12",
-      "start": 399.53,
+      "start": 399.47,
       "end": 424.74,
-      "duration": 25.21
+      "duration": 25.27
     },
     {
       "label": "ayah_13",
@@ -105,14 +97,14 @@
     {
       "label": "ayah_15",
       "start": 478.52,
-      "end": 495.38,
-      "duration": 16.86
+      "end": 495.46,
+      "duration": 16.94
     },
     {
       "label": "ayah_16",
-      "start": 495.38,
+      "start": 495.46,
       "end": 511.4,
-      "duration": 16.02
+      "duration": 15.94
     },
     {
       "label": "ayah_17",

@@ -1,22 +1,26 @@
 {
   "surah": 64,
-  "title": "At-Taghabun",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-064.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 7.14,
-      "duration": 7.14
+      "end": 2.51,
+      "duration": 2.51
     },
     {
       "label": "bismillah",
-      "start": 7.14,
+      "start": 2.51,
+      "end": 7.18,
+      "duration": 4.67
+    },
+    {
+      "label": "bismillah",
+      "start": 7.18,
       "end": 13.68,
-      "duration": 6.54
+      "duration": 6.5
     },
     {
       "label": "ayah_1",
@@ -39,14 +43,14 @@
     {
       "label": "ayah_4",
       "start": 57.93,
-      "end": 75.13,
-      "duration": 17.2
+      "end": 74.72,
+      "duration": 16.79
     },
     {
       "label": "ayah_5",
-      "start": 75.13,
+      "start": 74.72,
       "end": 90.23,
-      "duration": 15.1
+      "duration": 15.51
     },
     {
       "label": "ayah_6",
@@ -81,26 +85,26 @@
     {
       "label": "ayah_11",
       "start": 217.38,
-      "end": 240.95,
-      "duration": 23.57
+      "end": 239.67,
+      "duration": 22.29
     },
     {
       "label": "ayah_12",
-      "start": 240.95,
+      "start": 239.67,
       "end": 259.16,
-      "duration": 18.21
+      "duration": 19.49
     },
     {
       "label": "ayah_13",
       "start": 259.16,
-      "end": 274.16,
-      "duration": 15.0
+      "end": 273.6,
+      "duration": 14.44
     },
     {
       "label": "ayah_14",
-      "start": 274.16,
+      "start": 273.6,
       "end": 300.58,
-      "duration": 26.42
+      "duration": 26.98
     },
     {
       "label": "ayah_15",
@@ -123,8 +127,8 @@
     {
       "label": "ayah_18",
       "start": 355.68,
-      "end": 367.3,
-      "duration": 11.62
+      "end": 365.77,
+      "duration": 10.09
     }
   ]
 }

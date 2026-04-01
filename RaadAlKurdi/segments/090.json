@@ -1,22 +1,14 @@
 {
   "surah": 90,
-  "title": "Al-Balad",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-090.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 0.88,
-      "duration": 0.88
-    },
-    {
       "label": "bismillah",
-      "start": 0.88,
+      "start": 0.0,
       "end": 3.38,
-      "duration": 2.5
+      "duration": 3.38
     },
     {
       "label": "ayah_1",
@@ -57,14 +49,14 @@
     {
       "label": "ayah_7",
       "start": 38.76,
-      "end": 45.04,
-      "duration": 6.28
+      "end": 45.16,
+      "duration": 6.4
     },
     {
       "label": "ayah_8",
-      "start": 45.04,
+      "start": 45.16,
       "end": 48.8,
-      "duration": 3.76
+      "duration": 3.64
     },
     {
       "label": "ayah_9",
@@ -75,26 +67,26 @@
     {
       "label": "ayah_10",
       "start": 55.12,
-      "end": 60.34,
-      "duration": 5.22
+      "end": 59.62,
+      "duration": 4.5
     },
     {
       "label": "ayah_11",
-      "start": 60.34,
+      "start": 59.62,
       "end": 63.22,
-      "duration": 2.88
+      "duration": 3.6
     },
     {
       "label": "ayah_12",
       "start": 63.22,
-      "end": 69.4,
-      "duration": 6.18
+      "end": 69.39,
+      "duration": 6.17
     },
     {
       "label": "ayah_13",
-      "start": 69.4,
+      "start": 69.39,
       "end": 71.82,
-      "duration": 2.42
+      "duration": 2.43
     },
     {
       "label": "ayah_14",

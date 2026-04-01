@@ -1,22 +1,14 @@
 {
   "surah": 74,
-  "title": "Al-Muddaththir",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-074.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 4.44,
-      "duration": 4.44
-    },
-    {
       "label": "bismillah",
-      "start": 4.44,
+      "start": 0.0,
       "end": 8.77,
-      "duration": 4.33
+      "duration": 8.77
     },
     {
       "label": "ayah_1",
@@ -189,14 +181,14 @@
     {
       "label": "ayah_29",
       "start": 146.82,
-      "end": 150.05,
-      "duration": 3.23
+      "end": 150.04,
+      "duration": 3.22
     },
     {
       "label": "ayah_30",
-      "start": 150.05,
+      "start": 150.04,
       "end": 153.79,
-      "duration": 3.74
+      "duration": 3.75
     },
     {
       "label": "ayah_31",
@@ -333,14 +325,14 @@
     {
       "label": "ayah_53",
       "start": 366.44,
-      "end": 371.51,
-      "duration": 5.07
+      "end": 371.52,
+      "duration": 5.08
     },
     {
       "label": "ayah_54",
-      "start": 371.51,
+      "start": 371.52,
       "end": 377.66,
-      "duration": 6.15
+      "duration": 6.14
     },
     {
       "label": "ayah_55",

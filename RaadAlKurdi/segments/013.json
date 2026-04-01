@@ -1,28 +1,20 @@
 {
   "surah": 13,
-  "title": "Ar-Rad",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-013.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 2.28,
-      "duration": 2.28
-    },
-    {
       "label": "bismillah",
-      "start": 2.28,
-      "end": 4.54,
-      "duration": 2.26
+      "start": 0.0,
+      "end": 4.1,
+      "duration": 4.1
     },
     {
       "label": "ayah_1",
-      "start": 4.54,
+      "start": 4.1,
       "end": 33.53,
-      "duration": 28.99
+      "duration": 29.43
     },
     {
       "label": "ayah_2",
@@ -111,14 +103,14 @@
     {
       "label": "ayah_16",
       "start": 417.24,
-      "end": 478.05,
-      "duration": 60.81
+      "end": 477.35,
+      "duration": 60.11
     },
     {
       "label": "ayah_17",
-      "start": 478.05,
+      "start": 477.35,
       "end": 537.76,
-      "duration": 59.71
+      "duration": 60.41
     },
     {
       "label": "ayah_18",
@@ -189,14 +181,14 @@
     {
       "label": "ayah_29",
       "start": 801.95,
-      "end": 812.4,
-      "duration": 10.45
+      "end": 811.87,
+      "duration": 9.92
     },
     {
       "label": "ayah_30",
-      "start": 812.4,
+      "start": 811.87,
       "end": 851.94,
-      "duration": 39.54
+      "duration": 40.07
     },
     {
       "label": "ayah_31",
@@ -231,14 +223,14 @@
     {
       "label": "ayah_36",
       "start": 1024.5,
-      "end": 1061.22,
-      "duration": 36.72
+      "end": 1060.64,
+      "duration": 36.14
     },
     {
       "label": "ayah_37",
-      "start": 1061.22,
+      "start": 1060.64,
       "end": 1087.12,
-      "duration": 25.9
+      "duration": 26.48
     },
     {
       "label": "ayah_38",

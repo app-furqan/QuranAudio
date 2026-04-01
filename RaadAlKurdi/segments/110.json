@@ -1,40 +1,32 @@
 {
   "surah": 110,
-  "title": "An-Nasr",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-110.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 7.3,
-      "duration": 7.3
-    },
-    {
       "label": "bismillah",
-      "start": 7.3,
-      "end": 11.28,
-      "duration": 3.98
+      "start": 0.0,
+      "end": 2.91,
+      "duration": 2.91
     },
     {
       "label": "ayah_1",
-      "start": 11.28,
-      "end": 18.81,
+      "start": 2.91,
+      "end": 10.44,
       "duration": 7.53
     },
     {
       "label": "ayah_2",
-      "start": 18.81,
-      "end": 25.97,
+      "start": 10.44,
+      "end": 17.6,
       "duration": 7.16
     },
     {
       "label": "ayah_3",
-      "start": 25.97,
-      "end": 27.84,
-      "duration": 1.87
+      "start": 17.6,
+      "end": 27.09,
+      "duration": 9.49
     }
   ]
 }

@@ -1,28 +1,20 @@
 {
   "surah": 82,
-  "title": "Al-Infitar",
+  "title": "",
   "reciter": "Raad al-Kurdi",
-  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-082.mp3",
-  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 3.26,
-      "duration": 3.26
-    },
-    {
       "label": "bismillah",
-      "start": 3.26,
-      "end": 6.56,
-      "duration": 3.3
+      "start": 0.0,
+      "end": 3.07,
+      "duration": 3.07
     },
     {
       "label": "ayah_1",
-      "start": 6.56,
+      "start": 3.07,
       "end": 9.38,
-      "duration": 2.82
+      "duration": 6.31
     },
     {
       "label": "ayah_2",
@@ -93,14 +85,14 @@
     {
       "label": "ayah_13",
       "start": 69.56,
-      "end": 76.37,
-      "duration": 6.81
+      "end": 75.63,
+      "duration": 6.07
     },
     {
       "label": "ayah_14",
-      "start": 76.37,
+      "start": 75.63,
       "end": 84.66,
-      "duration": 8.29
+      "duration": 9.03
     },
     {
       "label": "ayah_15",
@@ -129,8 +121,8 @@
     {
       "label": "ayah_19",
       "start": 105.24,
-      "end": 129.16,
-      "duration": 23.92
+      "end": 128.24,
+      "duration": 23.0
     }
   ]
 }
