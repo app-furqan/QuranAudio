@@ -4,7 +4,7 @@
   "reciter": "Raad al-Kurdi",
   "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-023.mp3",
   "is_complete": true,
-  "coverage": 0.99,
+  "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
@@ -541,22 +541,22 @@
       "duration": 8.98
     },
     {
-      "label": "ayah_88",
+      "label": "ayah_87",
       "start": 1171.83,
-      "end": 1171.98,
-      "duration": 0.15
+      "end": 1174.54,
+      "duration": 2.71
     },
     {
-      "label": "ayah_85_repeat",
-      "start": 1171.98,
-      "end": 1193.25,
-      "duration": 21.27
+      "label": "ayah_88",
+      "start": 1174.54,
+      "end": 1203.43,
+      "duration": 28.89
     },
     {
       "label": "ayah_89",
-      "start": 1193.25,
+      "start": 1203.43,
       "end": 1214.09,
-      "duration": 20.84
+      "duration": 10.66
     },
     {
       "label": "ayah_90",
