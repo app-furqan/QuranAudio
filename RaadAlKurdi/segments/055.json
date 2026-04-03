@@ -141,26 +141,14 @@
     {
       "label": "ayah_20",
       "start": 125.16,
-      "end": 126.85,
-      "duration": 1.69
-    },
-    {
-      "label": "ayah_13_repeat",
-      "start": 126.85,
       "end": 129.23,
-      "duration": 2.38
-    },
-    {
-      "label": "ayah_16_repeat",
-      "start": 129.23,
-      "end": 129.38,
-      "duration": 0.15
+      "duration": 4.07
     },
     {
       "label": "ayah_21",
-      "start": 129.38,
+      "start": 129.23,
       "end": 139.91,
-      "duration": 10.53
+      "duration": 10.68
     },
     {
       "label": "ayah_22",
@@ -475,16 +463,10 @@
       "duration": 8.1
     },
     {
-      "label": "ayah_45_repeat",
-      "start": 599.72,
-      "end": 617.71,
-      "duration": 17.99
-    },
-    {
       "label": "ayah_74",
-      "start": 617.71,
+      "start": 599.72,
       "end": 630.04,
-      "duration": 12.33
+      "duration": 30.32
     },
     {
       "label": "ayah_75",
