@@ -1,224 +1,226 @@
 {
   "surah": 46,
-  "title": "",
+  "title": "Al-Ahqaf",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-046.mp3",
+  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
-      "start": 0.24,
-      "end": 2.8,
-      "duration": 2.56
+      "start": 0.34,
+      "end": 5.26,
+      "duration": 4.92
     },
     {
       "label": "ayah_1",
-      "start": 2.8,
-      "end": 5.57,
-      "duration": 2.77
+      "start": 5.26,
+      "end": 11.83,
+      "duration": 6.57
     },
     {
       "label": "ayah_2",
-      "start": 5.57,
-      "end": 18.14,
-      "duration": 12.57
+      "start": 11.83,
+      "end": 18.97,
+      "duration": 7.14
     },
     {
       "label": "ayah_3",
-      "start": 18.14,
-      "end": 41.22,
-      "duration": 23.08
+      "start": 18.97,
+      "end": 35.34,
+      "duration": 16.37
     },
     {
       "label": "ayah_4",
-      "start": 41.22,
-      "end": 79.23,
-      "duration": 38.01
+      "start": 35.34,
+      "end": 80.54,
+      "duration": 45.2
     },
     {
       "label": "ayah_5",
-      "start": 79.23,
-      "end": 106.34,
-      "duration": 27.11
+      "start": 80.54,
+      "end": 106.38,
+      "duration": 25.84
     },
     {
       "label": "ayah_6",
-      "start": 106.34,
-      "end": 121.02,
-      "duration": 14.68
+      "start": 106.38,
+      "end": 121.01,
+      "duration": 14.63
     },
     {
       "label": "ayah_7",
-      "start": 121.02,
-      "end": 145.44,
-      "duration": 24.42
+      "start": 121.01,
+      "end": 146.27,
+      "duration": 25.26
     },
     {
       "label": "ayah_8",
-      "start": 145.44,
-      "end": 171.71,
-      "duration": 26.27
+      "start": 146.27,
+      "end": 172.93,
+      "duration": 26.66
     },
     {
       "label": "ayah_9",
-      "start": 171.71,
-      "end": 201.31,
-      "duration": 29.6
+      "start": 172.93,
+      "end": 202.72,
+      "duration": 29.79
     },
     {
       "label": "ayah_10",
-      "start": 201.31,
-      "end": 233.31,
-      "duration": 32.0
+      "start": 202.72,
+      "end": 233.28,
+      "duration": 30.56
     },
     {
       "label": "ayah_11",
-      "start": 233.31,
-      "end": 260.58,
-      "duration": 27.27
+      "start": 233.28,
+      "end": 261.85,
+      "duration": 28.57
     },
     {
       "label": "ayah_12",
-      "start": 260.58,
-      "end": 284.62,
-      "duration": 24.04
+      "start": 261.85,
+      "end": 286.58,
+      "duration": 24.73
     },
     {
       "label": "ayah_13",
-      "start": 284.62,
-      "end": 299.72,
-      "duration": 15.1
+      "start": 286.58,
+      "end": 301.22,
+      "duration": 14.64
     },
     {
       "label": "ayah_14",
-      "start": 299.72,
-      "end": 323.9,
-      "duration": 24.18
+      "start": 301.22,
+      "end": 324.39,
+      "duration": 23.17
     },
     {
       "label": "ayah_15",
-      "start": 323.9,
-      "end": 391.14,
-      "duration": 67.24
+      "start": 324.39,
+      "end": 391.04,
+      "duration": 66.65
     },
     {
       "label": "ayah_16",
-      "start": 391.14,
-      "end": 418.69,
-      "duration": 27.55
+      "start": 391.04,
+      "end": 419.88,
+      "duration": 28.84
     },
     {
       "label": "ayah_17",
-      "start": 418.69,
-      "end": 457.86,
-      "duration": 39.17
+      "start": 419.88,
+      "end": 457.92,
+      "duration": 38.04
     },
     {
       "label": "ayah_18",
-      "start": 457.86,
-      "end": 489.9,
-      "duration": 32.04
+      "start": 457.92,
+      "end": 490.39,
+      "duration": 32.47
     },
     {
       "label": "ayah_19",
-      "start": 489.9,
-      "end": 504.32,
-      "duration": 14.42
+      "start": 490.39,
+      "end": 499.91,
+      "duration": 9.52
     },
     {
       "label": "ayah_20",
-      "start": 504.32,
-      "end": 561.44,
-      "duration": 57.12
+      "start": 499.91,
+      "end": 562.17,
+      "duration": 62.26
     },
     {
       "label": "ayah_21",
-      "start": 561.44,
-      "end": 598.43,
-      "duration": 36.99
+      "start": 562.17,
+      "end": 600.92,
+      "duration": 38.75
     },
     {
       "label": "ayah_22",
-      "start": 598.43,
-      "end": 617.66,
-      "duration": 19.23
+      "start": 600.92,
+      "end": 619.6,
+      "duration": 18.68
     },
     {
       "label": "ayah_23",
-      "start": 617.66,
-      "end": 638.08,
-      "duration": 20.42
+      "start": 619.6,
+      "end": 638.57,
+      "duration": 18.97
     },
     {
       "label": "ayah_24",
-      "start": 638.08,
-      "end": 663.26,
-      "duration": 25.18
+      "start": 638.57,
+      "end": 663.79,
+      "duration": 25.22
     },
     {
       "label": "ayah_25",
-      "start": 663.26,
-      "end": 683.52,
-      "duration": 20.26
+      "start": 663.79,
+      "end": 685.16,
+      "duration": 21.37
     },
     {
       "label": "ayah_26",
-      "start": 683.52,
-      "end": 736.48,
-      "duration": 52.96
+      "start": 685.16,
+      "end": 736.54,
+      "duration": 51.38
     },
     {
       "label": "ayah_27",
-      "start": 736.48,
-      "end": 752.64,
-      "duration": 16.16
+      "start": 736.54,
+      "end": 747.89,
+      "duration": 11.35
     },
     {
       "label": "ayah_28",
-      "start": 752.64,
-      "end": 773.02,
-      "duration": 20.38
+      "start": 747.89,
+      "end": 774.31,
+      "duration": 26.42
     },
     {
       "label": "ayah_29",
-      "start": 773.02,
-      "end": 803.14,
-      "duration": 30.12
+      "start": 774.31,
+      "end": 804.72,
+      "duration": 30.41
     },
     {
       "label": "ayah_30",
-      "start": 803.14,
-      "end": 831.07,
-      "duration": 27.93
+      "start": 804.72,
+      "end": 831.65,
+      "duration": 26.93
     },
     {
       "label": "ayah_31",
-      "start": 831.07,
-      "end": 850.66,
-      "duration": 19.59
+      "start": 831.65,
+      "end": 852.19,
+      "duration": 20.54
     },
     {
       "label": "ayah_32",
-      "start": 850.66,
-      "end": 874.66,
-      "duration": 24.0
+      "start": 852.19,
+      "end": 875.3,
+      "duration": 23.11
     },
     {
       "label": "ayah_33",
-      "start": 874.66,
-      "end": 904.29,
-      "duration": 29.63
+      "start": 875.3,
+      "end": 904.98,
+      "duration": 29.68
     },
     {
       "label": "ayah_34",
-      "start": 904.29,
-      "end": 925.79,
-      "duration": 21.5
+      "start": 904.98,
+      "end": 926.78,
+      "duration": 21.8
     },
     {
       "label": "ayah_35",
-      "start": 925.79,
+      "start": 926.78,
       "end": 967.02,
-      "duration": 41.23
+      "duration": 40.24
     }
   ]
 }
