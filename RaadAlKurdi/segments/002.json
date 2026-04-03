@@ -9,26 +9,26 @@
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 6.0,
-      "duration": 6.0
+      "end": 6.00,
+      "duration": 6.00
     },
     {
       "label": "ayah_1",
-      "start": 6.01,
+      "start": 6.00,
       "end": 16.00,
-      "duration": 9.99
+      "duration": 10.00
     },
     {
       "label": "ayah_2",
-      "start": 16.01,
-      "end": 27.00,
-      "duration": 10.99
+      "start": 16.00,
+      "end": 24.56,
+      "duration": 8.56
     },
     {
       "label": "ayah_3",
-      "start": 27.01,
+      "start": 24.56,
       "end": 36.84,
-      "duration": 9.83
+      "duration": 12.28
     },
     {
       "label": "ayah_4",
