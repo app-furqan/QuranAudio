@@ -1,44 +1,46 @@
 {
   "surah": 97,
-  "title": "",
+  "title": "Al-Qadr",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-097.mp3",
+  "is_complete": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
-      "start": 0.26,
-      "end": 2.98,
-      "duration": 2.72
+      "start": 0.34,
+      "end": 3.62,
+      "duration": 3.28
     },
     {
       "label": "ayah_1",
-      "start": 2.98,
-      "end": 12.29,
-      "duration": 9.31
+      "start": 3.62,
+      "end": 12.4,
+      "duration": 8.78
     },
     {
       "label": "ayah_2",
-      "start": 12.29,
-      "end": 19.84,
-      "duration": 7.55
+      "start": 12.4,
+      "end": 23.2,
+      "duration": 10.8
     },
     {
       "label": "ayah_3",
-      "start": 19.84,
-      "end": 29.15,
-      "duration": 9.31
+      "start": 23.2,
+      "end": 34.9,
+      "duration": 11.7
     },
     {
       "label": "ayah_4",
-      "start": 29.15,
-      "end": 54.27,
-      "duration": 25.12
+      "start": 34.9,
+      "end": 50.59,
+      "duration": 15.69
     },
     {
       "label": "ayah_5",
-      "start": 54.27,
+      "start": 50.59,
       "end": 63.42,
-      "duration": 9.15
+      "duration": 12.83
     }
   ]
 }
