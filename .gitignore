@@ -1,2 +1,11 @@
 download_and_push.py
 download_zips_and_push.py
+minshawy_download_and_push.py
+minshawy_log.txt
+minshawy_resume_and_push.py
+minshawy_resume_log.txt
+__pycache__/minshawy_download_and_push.cpython-312.pyc
+__pycache__/minshawy_resume_and_push.cpython-312.pyc
+minshawi_fullsurah_log.txt
+__pycache__/minshawi_fullsurah_upload.cpython-312.pyc
+minshawi_fullsurah_upload.py
