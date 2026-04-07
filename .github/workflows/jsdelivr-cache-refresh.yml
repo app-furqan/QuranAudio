@@ -22,11 +22,6 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Purge jsDelivr (batch of 10)
         shell: bash
         env:
@@ -35,25 +30,17 @@ jobs:
           SHA: ${{ github.sha }}
           EVENT_NAME: ${{ github.event_name }}
           FULL_PURGE: ${{ github.event.inputs.full_purge || 'false' }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
 
           purge_endpoint="https://purge.jsdelivr.net/"
+          api_base="https://api.github.com/repos/${REPO}"
+          auth_header="Authorization: Bearer ${GH_TOKEN}"
           batch_size=10
 
-          declare -a changed_paths=()
           declare -a purge_targets=()
-          declare -A seen_changed=()
           declare -A seen_targets=()
-
-          add_changed_path() {
-            local p="$1"
-            [[ -z "$p" ]] && return 0
-            if [[ -z "${seen_changed[$p]+x}" ]]; then
-              seen_changed["$p"]=1
-              changed_paths+=("$p")
-            fi
-          }
 
           add_target_pair() {
             local rel_path="$1"
@@ -70,31 +57,6 @@ jobs:
             fi
           }
 
-          collect_from_diff() {
-            local from_ref="$1"
-            local to_ref="$2"
-            local line status rest old_path new_path
-
-            mapfile -t diff_lines < <(git diff --name-status --find-renames "$from_ref" "$to_ref" || true)
-            for line in "${diff_lines[@]}"; do
-              [[ -z "$line" ]] && continue
-              status="${line%%$'\t'*}"
-              rest="${line#*$'\t'}"
-
-              case "$status" in
-                R*|C*)
-                  old_path="${rest%%$'\t'*}"
-                  new_path="${rest#*$'\t'}"
-                  add_changed_path "$old_path"
-                  add_changed_path "$new_path"
-                  ;;
-                *)
-                  add_changed_path "$rest"
-                  ;;
-              esac
-            done
-          }
-
           # Always include root and directory paths.
           add_target_pair ""
           add_target_pair "/RaadAlKurdi"
@@ -103,24 +65,35 @@ jobs:
           add_target_pair "/RaadAlKurdi/segments/"
 
           if [[ "${FULL_PURGE}" == "true" ]]; then
-            echo "Manual full purge requested."
-            mapfile -t all_files < <(git ls-tree -r --name-only "${SHA}")
+            echo "Manual full purge requested. Fetching tree from GitHub API..."
+            mapfile -t all_files < <(
+              curl -fsS -H "${auth_header}" \
+                "${api_base}/git/trees/${SHA}?recursive=1" \
+              | jq -r '.tree[] | select(.type == "blob") | .path'
+            )
             for file in "${all_files[@]}"; do
               [[ -z "$file" ]] && continue
               add_target_pair "/${file}"
             done
-          elif [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
-            echo "Collecting changed paths between ${BEFORE} and ${SHA}"
-            collect_from_diff "${BEFORE}" "${SHA}"
-            for file in "${changed_paths[@]}"; do
-              add_target_pair "/${file}"
+
+          elif [[ -n "${BEFORE:-}" ]] && [[ "${BEFORE}" != "0000000000000000000000000000000000000000" ]]; then
+            echo "Collecting changed paths between ${BEFORE} and ${SHA} via GitHub API..."
+            page=1
+            while :; do
+              response=$(curl -fsS -H "${auth_header}" \
+                "${api_base}/compare/${BEFORE}...${SHA}?per_page=100&page=${page}")
+              mapfile -t files < <(echo "$response" | jq -r '.files[]? | .filename, .previous_filename // empty')
+              [[ ${#files[@]} -eq 0 ]] && break
+              for file in "${files[@]}"; do
+                [[ -z "$file" ]] && continue
+                add_target_pair "/${file}"
+              done
+              # Stop if fewer than 100 files on this page (last page)
+              file_count=$(echo "$response" | jq '.files | length')
+              [[ "$file_count" -lt 100 ]] && break
+              page=$((page + 1))
             done
-          elif [[ "${EVENT_NAME}" == "workflow_dispatch" ]] && git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
-            echo "Manual run detected; collecting changed paths between HEAD~1 and HEAD"
-            collect_from_diff HEAD~1 HEAD
-            for file in "${changed_paths[@]}"; do
-              add_target_pair "/${file}"
-            done
+
           else
             echo "No valid commit range found; purging only root/directories."
           fi
