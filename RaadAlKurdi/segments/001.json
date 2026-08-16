@@ -1,50 +1,53 @@
 {
   "surah": 1,
-  "title": "",
+  "title": "Al-Fatiha",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-001.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "ayah_1",
       "start": 0.0,
-      "end": 6.89,
-      "duration": 6.89
+      "end": 7.24,
+      "duration": 7.24
     },
     {
       "label": "ayah_2",
-      "start": 6.89,
-      "end": 13.26,
-      "duration": 6.37
+      "start": 7.24,
+      "end": 12.96,
+      "duration": 5.72
     },
     {
       "label": "ayah_3",
-      "start": 13.26,
-      "end": 15.08,
-      "duration": 1.82
+      "start": 12.96,
+      "end": 13.5,
+      "duration": 0.54
     },
     {
       "label": "ayah_4",
-      "start": 15.08,
-      "end": 17.3,
-      "duration": 2.22
+      "start": 13.5,
+      "end": 16.44,
+      "duration": 2.94
     },
     {
       "label": "ayah_5",
-      "start": 17.3,
-      "end": 23.25,
-      "duration": 5.95
+      "start": 16.44,
+      "end": 23.08,
+      "duration": 6.64
     },
     {
       "label": "ayah_6",
-      "start": 23.25,
-      "end": 26.26,
-      "duration": 3.01
+      "start": 23.08,
+      "end": 25.56,
+      "duration": 2.48
     },
     {
       "label": "ayah_7",
-      "start": 26.26,
-      "end": 45.92,
-      "duration": 19.66
+      "start": 25.56,
+      "end": 43.28,
+      "duration": 17.72
     }
   ]
 }

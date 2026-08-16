@@ -1,92 +1,89 @@
 {
   "surah": 63,
-  "title": "",
+  "title": "Al-Munafiqoon",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-063.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "audubillah",
       "start": 0.0,
-      "end": 2.92,
-      "duration": 2.92
+      "end": 6.78,
+      "duration": 6.78
     },
     {
       "label": "bismillah",
-      "start": 2.92,
-      "end": 8.34,
-      "duration": 5.42
-    },
-    {
-      "label": "bismillah",
-      "start": 8.34,
-      "end": 14.66,
-      "duration": 6.32
+      "start": 6.78,
+      "end": 14.4,
+      "duration": 7.62
     },
     {
       "label": "ayah_1",
-      "start": 14.66,
-      "end": 43.56,
-      "duration": 28.9
+      "start": 14.4,
+      "end": 43.74,
+      "duration": 29.34
     },
     {
       "label": "ayah_2",
-      "start": 43.56,
-      "end": 65.26,
-      "duration": 21.7
+      "start": 43.74,
+      "end": 64.98,
+      "duration": 21.24
     },
     {
       "label": "ayah_3",
-      "start": 65.26,
-      "end": 79.52,
-      "duration": 14.26
+      "start": 64.98,
+      "end": 79.4,
+      "duration": 14.42
     },
     {
       "label": "ayah_4",
-      "start": 79.52,
-      "end": 115.22,
-      "duration": 35.7
+      "start": 79.4,
+      "end": 115.08,
+      "duration": 35.68
     },
     {
       "label": "ayah_5",
-      "start": 115.22,
-      "end": 134.2,
-      "duration": 18.98
+      "start": 115.08,
+      "end": 134.1,
+      "duration": 19.02
     },
     {
       "label": "ayah_6",
-      "start": 134.2,
-      "end": 157.32,
-      "duration": 23.12
+      "start": 134.1,
+      "end": 157.12,
+      "duration": 23.02
     },
     {
       "label": "ayah_7",
-      "start": 157.32,
-      "end": 186.92,
-      "duration": 29.6
+      "start": 157.12,
+      "end": 186.66,
+      "duration": 29.54
     },
     {
       "label": "ayah_8",
-      "start": 186.92,
-      "end": 216.54,
-      "duration": 29.62
+      "start": 186.66,
+      "end": 215.48,
+      "duration": 28.82
     },
     {
       "label": "ayah_9",
-      "start": 216.54,
-      "end": 241.69,
-      "duration": 25.15
+      "start": 215.48,
+      "end": 241.56,
+      "duration": 26.08
     },
     {
       "label": "ayah_10",
-      "start": 241.69,
-      "end": 275.4,
-      "duration": 33.71
+      "start": 241.56,
+      "end": 275.18,
+      "duration": 33.62
     },
     {
       "label": "ayah_11",
-      "start": 275.4,
-      "end": 296.33,
-      "duration": 20.93
+      "start": 275.18,
+      "end": 296.3,
+      "duration": 21.12
     }
   ]
 }
