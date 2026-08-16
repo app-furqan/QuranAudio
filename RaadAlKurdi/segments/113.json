@@ -1,44 +1,47 @@
 {
   "surah": 113,
-  "title": "",
+  "title": "Al-Falaq",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-113.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 3.02,
-      "duration": 3.02
+      "end": 3.06,
+      "duration": 3.06
     },
     {
       "label": "ayah_1",
-      "start": 3.02,
-      "end": 6.86,
-      "duration": 3.84
+      "start": 3.06,
+      "end": 7.88,
+      "duration": 4.82
     },
     {
       "label": "ayah_2",
-      "start": 6.86,
-      "end": 10.26,
-      "duration": 3.4
+      "start": 7.88,
+      "end": 10.1,
+      "duration": 2.22
     },
     {
       "label": "ayah_3",
-      "start": 10.26,
-      "end": 15.1,
-      "duration": 4.84
+      "start": 10.1,
+      "end": 15.0,
+      "duration": 4.9
     },
     {
       "label": "ayah_4",
-      "start": 15.1,
-      "end": 20.76,
-      "duration": 5.66
+      "start": 15.0,
+      "end": 20.56,
+      "duration": 5.56
     },
     {
       "label": "ayah_5",
-      "start": 20.76,
-      "end": 25.47,
-      "duration": 4.71
+      "start": 20.56,
+      "end": 25.48,
+      "duration": 4.92
     }
   ]
 }

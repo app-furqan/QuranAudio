@@ -1,32 +1,35 @@
 {
   "surah": 103,
-  "title": "",
+  "title": "Al-Asr",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-103.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 3.02,
-      "duration": 3.02
+      "end": 3.1,
+      "duration": 3.1
     },
     {
       "label": "ayah_1",
-      "start": 3.02,
-      "end": 4.9,
-      "duration": 1.88
+      "start": 3.1,
+      "end": 3.4,
+      "duration": 0.3
     },
     {
       "label": "ayah_2",
-      "start": 4.9,
-      "end": 10.08,
-      "duration": 5.18
+      "start": 3.4,
+      "end": 9.84,
+      "duration": 6.44
     },
     {
       "label": "ayah_3",
-      "start": 10.08,
-      "end": 20.48,
-      "duration": 10.4
+      "start": 9.84,
+      "end": 20.4,
+      "duration": 10.56
     }
   ]
 }

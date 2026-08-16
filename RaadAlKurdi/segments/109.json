@@ -1,50 +1,53 @@
 {
   "surah": 109,
-  "title": "",
+  "title": "Al-Kafiroon",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-109.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 2.96,
-      "duration": 2.96
+      "end": 3.02,
+      "duration": 3.02
     },
     {
       "label": "ayah_1",
-      "start": 2.96,
-      "end": 10.18,
-      "duration": 7.22
+      "start": 3.02,
+      "end": 10.0,
+      "duration": 6.98
     },
     {
       "label": "ayah_2",
-      "start": 10.18,
-      "end": 16.87,
-      "duration": 6.69
+      "start": 10.0,
+      "end": 16.72,
+      "duration": 6.72
     },
     {
       "label": "ayah_3",
-      "start": 16.87,
-      "end": 24.73,
-      "duration": 7.86
+      "start": 16.72,
+      "end": 24.54,
+      "duration": 7.82
     },
     {
       "label": "ayah_4",
-      "start": 24.73,
-      "end": 29.99,
-      "duration": 5.26
+      "start": 24.54,
+      "end": 29.82,
+      "duration": 5.28
     },
     {
       "label": "ayah_5",
-      "start": 29.99,
-      "end": 39.34,
-      "duration": 9.35
+      "start": 29.82,
+      "end": 39.22,
+      "duration": 9.4
     },
     {
       "label": "ayah_6",
-      "start": 39.34,
-      "end": 44.17,
-      "duration": 4.83
+      "start": 39.22,
+      "end": 43.52,
+      "duration": 4.3
     }
   ]
 }

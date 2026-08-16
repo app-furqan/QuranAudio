@@ -1,62 +1,65 @@
 {
   "surah": 102,
-  "title": "",
+  "title": "At-Takathur",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-102.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 3.1,
-      "duration": 3.1
+      "end": 3.04,
+      "duration": 3.04
     },
     {
       "label": "ayah_1",
-      "start": 3.1,
-      "end": 6.2,
-      "duration": 3.1
+      "start": 3.04,
+      "end": 6.46,
+      "duration": 3.42
     },
     {
       "label": "ayah_2",
-      "start": 6.2,
-      "end": 10.08,
-      "duration": 3.88
+      "start": 6.46,
+      "end": 9.92,
+      "duration": 3.46
     },
     {
       "label": "ayah_3",
-      "start": 10.08,
-      "end": 12.94,
-      "duration": 2.86
+      "start": 9.92,
+      "end": 12.74,
+      "duration": 2.82
     },
     {
       "label": "ayah_4",
-      "start": 12.94,
-      "end": 18.78,
-      "duration": 5.84
+      "start": 12.74,
+      "end": 18.66,
+      "duration": 5.92
     },
     {
       "label": "ayah_5",
-      "start": 18.78,
-      "end": 25.38,
-      "duration": 6.6
+      "start": 18.66,
+      "end": 25.18,
+      "duration": 6.52
     },
     {
       "label": "ayah_6",
-      "start": 25.38,
-      "end": 29.76,
-      "duration": 4.38
+      "start": 25.18,
+      "end": 29.5,
+      "duration": 4.32
     },
     {
       "label": "ayah_7",
-      "start": 29.76,
-      "end": 36.02,
-      "duration": 6.26
+      "start": 29.5,
+      "end": 35.86,
+      "duration": 6.36
     },
     {
       "label": "ayah_8",
-      "start": 36.02,
-      "end": 44.67,
-      "duration": 8.65
+      "start": 35.86,
+      "end": 43.66,
+      "duration": 7.8
     }
   ]
 }

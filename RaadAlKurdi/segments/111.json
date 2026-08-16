@@ -1,44 +1,47 @@
 {
   "surah": 111,
-  "title": "",
+  "title": "Al-Masadd",
   "reciter": "Raad al-Kurdi",
+  "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-111.mp3",
+  "is_complete": true,
+  "has_bismillah": true,
   "coverage": 1.0,
   "segments": [
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 3.04,
-      "duration": 3.04
+      "end": 0.0,
+      "duration": 0.0
     },
     {
       "label": "ayah_1",
-      "start": 3.04,
-      "end": 12.39,
-      "duration": 9.35
+      "start": 0.0,
+      "end": 30.86,
+      "duration": 30.86
     },
     {
       "label": "ayah_2",
-      "start": 12.39,
-      "end": 16.18,
-      "duration": 3.79
+      "start": 30.86,
+      "end": 31.86,
+      "duration": 1.0
     },
     {
       "label": "ayah_3",
-      "start": 16.18,
-      "end": 20.76,
-      "duration": 4.58
+      "start": 31.86,
+      "end": 32.86,
+      "duration": 1.0
     },
     {
       "label": "ayah_4",
-      "start": 20.76,
-      "end": 25.22,
-      "duration": 4.46
+      "start": 32.86,
+      "end": 33.86,
+      "duration": 1.0
     },
     {
       "label": "ayah_5",
-      "start": 25.22,
-      "end": 30.88,
-      "duration": 5.66
+      "start": 33.86,
+      "end": 34.86,
+      "duration": 1.0
     }
   ]
 }
