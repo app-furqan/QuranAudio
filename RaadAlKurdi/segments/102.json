@@ -10,26 +10,26 @@
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 3.04,
-      "duration": 3.04
+      "end": 3.41,
+      "duration": 3.41
     },
     {
       "label": "ayah_1",
-      "start": 3.04,
-      "end": 6.46,
-      "duration": 3.42
+      "start": 3.41,
+      "end": 6.47,
+      "duration": 3.06
     },
     {
       "label": "ayah_2",
-      "start": 6.46,
-      "end": 9.92,
-      "duration": 3.46
+      "start": 6.47,
+      "end": 9.95,
+      "duration": 3.48
     },
     {
       "label": "ayah_3",
-      "start": 9.92,
+      "start": 9.95,
       "end": 12.74,
-      "duration": 2.82
+      "duration": 2.79
     },
     {
       "label": "ayah_4",
@@ -40,26 +40,26 @@
     {
       "label": "ayah_5",
       "start": 18.66,
-      "end": 25.18,
-      "duration": 6.52
+      "end": 25.19,
+      "duration": 6.53
     },
     {
       "label": "ayah_6",
-      "start": 25.18,
-      "end": 29.5,
-      "duration": 4.32
+      "start": 25.19,
+      "end": 29.67,
+      "duration": 4.48
     },
     {
       "label": "ayah_7",
-      "start": 29.5,
+      "start": 29.67,
       "end": 35.86,
-      "duration": 6.36
+      "duration": 6.19
     },
     {
       "label": "ayah_8",
       "start": 35.86,
-      "end": 43.66,
-      "duration": 7.8
+      "end": 44.67,
+      "duration": 8.81
     }
   ]
 }
