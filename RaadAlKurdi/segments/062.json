@@ -8,82 +8,76 @@
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 4.8,
-      "duration": 4.8
-    },
-    {
       "label": "bismillah",
-      "start": 4.8,
-      "end": 9.34,
-      "duration": 4.54
+      "start": 0.0,
+      "end": 7.43,
+      "duration": 7.43
     },
     {
       "label": "ayah_1",
-      "start": 9.34,
-      "end": 22.16,
-      "duration": 12.82
+      "start": 7.43,
+      "end": 22.13,
+      "duration": 14.7
     },
     {
       "label": "ayah_2",
-      "start": 22.16,
+      "start": 22.13,
       "end": 52.16,
-      "duration": 30.0
+      "duration": 30.03
     },
     {
       "label": "ayah_3",
       "start": 52.16,
-      "end": 63.12,
-      "duration": 10.96
+      "end": 63.08,
+      "duration": 10.92
     },
     {
       "label": "ayah_4",
-      "start": 63.12,
-      "end": 78.82,
-      "duration": 15.7
+      "start": 63.08,
+      "end": 79.42,
+      "duration": 16.34
     },
     {
       "label": "ayah_5",
-      "start": 78.82,
-      "end": 107.86,
-      "duration": 29.04
+      "start": 79.42,
+      "end": 107.88,
+      "duration": 28.46
     },
     {
       "label": "ayah_6",
-      "start": 107.86,
+      "start": 107.88,
       "end": 134.32,
-      "duration": 26.46
+      "duration": 26.44
     },
     {
       "label": "ayah_7",
       "start": 134.32,
-      "end": 151.26,
-      "duration": 16.94
+      "end": 151.12,
+      "duration": 16.8
     },
     {
       "label": "ayah_8",
-      "start": 151.26,
-      "end": 175.06,
-      "duration": 23.8
+      "start": 151.12,
+      "end": 175.13,
+      "duration": 24.01
     },
     {
       "label": "ayah_9",
-      "start": 175.06,
+      "start": 175.13,
       "end": 207.24,
-      "duration": 32.18
+      "duration": 32.11
     },
     {
       "label": "ayah_10",
       "start": 207.24,
-      "end": 227.66,
-      "duration": 20.42
+      "end": 227.68,
+      "duration": 20.44
     },
     {
       "label": "ayah_11",
-      "start": 227.66,
-      "end": 256.52,
-      "duration": 28.86
+      "start": 227.68,
+      "end": 259.21,
+      "duration": 31.53
     }
   ]
 }

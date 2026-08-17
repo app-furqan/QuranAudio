@@ -10,26 +10,26 @@
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 4.82,
-      "duration": 4.82
+      "end": 4.87,
+      "duration": 4.87
     },
     {
       "label": "ayah_1",
-      "start": 4.82,
-      "end": 17.18,
-      "duration": 12.36
+      "start": 4.87,
+      "end": 17.19,
+      "duration": 12.32
     },
     {
       "label": "ayah_2",
-      "start": 17.18,
-      "end": 27.22,
+      "start": 17.19,
+      "end": 27.23,
       "duration": 10.04
     },
     {
       "label": "ayah_3",
-      "start": 27.22,
+      "start": 27.23,
       "end": 54.32,
-      "duration": 27.1
+      "duration": 27.09
     },
     {
       "label": "ayah_4",
@@ -40,50 +40,50 @@
     {
       "label": "ayah_5",
       "start": 78.64,
-      "end": 106.86,
-      "duration": 28.22
+      "end": 106.91,
+      "duration": 28.27
     },
     {
       "label": "ayah_6",
-      "start": 106.86,
-      "end": 135.3,
-      "duration": 28.44
+      "start": 106.91,
+      "end": 135.37,
+      "duration": 28.46
     },
     {
       "label": "ayah_7",
-      "start": 135.3,
-      "end": 150.3,
-      "duration": 15.0
+      "start": 135.37,
+      "end": 149.85,
+      "duration": 14.48
     },
     {
       "label": "ayah_8",
-      "start": 150.3,
-      "end": 196.94,
-      "duration": 46.64
+      "start": 149.85,
+      "end": 196.93,
+      "duration": 47.08
     },
     {
       "label": "ayah_9",
-      "start": 196.94,
-      "end": 212.18,
-      "duration": 15.24
+      "start": 196.93,
+      "end": 212.19,
+      "duration": 15.26
     },
     {
       "label": "ayah_10",
-      "start": 212.18,
-      "end": 240.36,
-      "duration": 28.18
+      "start": 212.19,
+      "end": 240.35,
+      "duration": 28.16
     },
     {
       "label": "ayah_11",
-      "start": 240.36,
-      "end": 262.98,
-      "duration": 22.62
+      "start": 240.35,
+      "end": 262.99,
+      "duration": 22.64
     },
     {
       "label": "ayah_12",
-      "start": 262.98,
-      "end": 292.02,
-      "duration": 29.04
+      "start": 262.99,
+      "end": 292.05,
+      "duration": 29.06
     }
   ]
 }

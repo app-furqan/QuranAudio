@@ -4,50 +4,50 @@
   "reciter": "Raad al-Kurdi",
   "source_file": "Raad_Mohammad_al_Kurdi/raad-al-kurdi-001.mp3",
   "is_complete": true,
-  "has_bismillah": true,
+  "has_bismillah": false,
   "coverage": 1.0,
   "segments": [
     {
       "label": "ayah_1",
       "start": 0.0,
-      "end": 7.24,
-      "duration": 7.24
+      "end": 7.08,
+      "duration": 7.08
     },
     {
       "label": "ayah_2",
-      "start": 7.24,
-      "end": 12.96,
-      "duration": 5.72
+      "start": 7.08,
+      "end": 12.12,
+      "duration": 5.04
     },
     {
       "label": "ayah_3",
-      "start": 12.96,
-      "end": 13.5,
-      "duration": 0.54
+      "start": 12.12,
+      "end": 14.78,
+      "duration": 2.66
     },
     {
       "label": "ayah_4",
-      "start": 13.5,
-      "end": 16.44,
-      "duration": 2.94
+      "start": 14.78,
+      "end": 16.9,
+      "duration": 2.12
     },
     {
       "label": "ayah_5",
-      "start": 16.44,
-      "end": 23.08,
-      "duration": 6.64
+      "start": 16.9,
+      "end": 22.1,
+      "duration": 5.2
     },
     {
       "label": "ayah_6",
-      "start": 23.08,
-      "end": 25.56,
-      "duration": 2.48
+      "start": 22.1,
+      "end": 25.98,
+      "duration": 3.88
     },
     {
       "label": "ayah_7",
-      "start": 25.56,
-      "end": 43.28,
-      "duration": 17.72
+      "start": 25.98,
+      "end": 43.44,
+      "duration": 17.46
     }
   ]
 }

@@ -10,62 +10,62 @@
     {
       "label": "bismillah",
       "start": 0.0,
-      "end": 28.23,
-      "duration": 28.23
+      "end": 28.22,
+      "duration": 28.22
     },
     {
       "label": "ayah_1",
-      "start": 28.23,
-      "end": 47.74,
-      "duration": 19.51
+      "start": 28.22,
+      "end": 47.81,
+      "duration": 19.59
     },
     {
       "label": "ayah_2",
-      "start": 47.74,
-      "end": 78.58,
-      "duration": 30.84
+      "start": 47.81,
+      "end": 78.59,
+      "duration": 30.78
     },
     {
       "label": "ayah_3",
-      "start": 78.58,
-      "end": 97.62,
+      "start": 78.59,
+      "end": 97.63,
       "duration": 19.04
     },
     {
       "label": "ayah_4",
-      "start": 97.62,
-      "end": 131.46,
+      "start": 97.63,
+      "end": 131.47,
       "duration": 33.84
     },
     {
       "label": "ayah_5",
-      "start": 131.46,
-      "end": 145.68,
-      "duration": 14.22
+      "start": 131.47,
+      "end": 145.59,
+      "duration": 14.12
     },
     {
       "label": "ayah_6",
-      "start": 145.68,
+      "start": 145.59,
       "end": 184.32,
-      "duration": 38.64
+      "duration": 38.73
     },
     {
       "label": "ayah_7",
       "start": 184.32,
-      "end": 210.84,
-      "duration": 26.52
+      "end": 210.85,
+      "duration": 26.53
     },
     {
       "label": "ayah_8",
-      "start": 210.84,
-      "end": 234.34,
+      "start": 210.85,
+      "end": 234.35,
       "duration": 23.5
     },
     {
       "label": "ayah_9",
-      "start": 234.34,
+      "start": 234.35,
       "end": 242.18,
-      "duration": 7.84
+      "duration": 7.83
     },
     {
       "label": "ayah_10",
@@ -76,14 +76,14 @@
     {
       "label": "ayah_11",
       "start": 258.14,
-      "end": 294.94,
-      "duration": 36.8
+      "end": 294.95,
+      "duration": 36.81
     },
     {
       "label": "ayah_12",
-      "start": 294.94,
-      "end": 324.26,
-      "duration": 29.32
+      "start": 294.95,
+      "end": 324.28,
+      "duration": 29.33
     }
   ]
 }

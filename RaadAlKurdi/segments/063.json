@@ -8,34 +8,28 @@
   "coverage": 1.0,
   "segments": [
     {
-      "label": "audubillah",
-      "start": 0.0,
-      "end": 6.78,
-      "duration": 6.78
-    },
-    {
       "label": "bismillah",
-      "start": 6.78,
-      "end": 14.4,
-      "duration": 7.62
+      "start": 0.0,
+      "end": 14.42,
+      "duration": 14.42
     },
     {
       "label": "ayah_1",
-      "start": 14.4,
-      "end": 43.74,
-      "duration": 29.34
+      "start": 14.42,
+      "end": 43.28,
+      "duration": 28.86
     },
     {
       "label": "ayah_2",
-      "start": 43.74,
-      "end": 64.98,
-      "duration": 21.24
+      "start": 43.28,
+      "end": 64.85,
+      "duration": 21.57
     },
     {
       "label": "ayah_3",
-      "start": 64.98,
+      "start": 64.85,
       "end": 79.4,
-      "duration": 14.42
+      "duration": 14.55
     },
     {
       "label": "ayah_4",
@@ -46,44 +40,44 @@
     {
       "label": "ayah_5",
       "start": 115.08,
-      "end": 134.1,
-      "duration": 19.02
+      "end": 134.0,
+      "duration": 18.92
     },
     {
       "label": "ayah_6",
-      "start": 134.1,
-      "end": 157.12,
-      "duration": 23.02
+      "start": 134.0,
+      "end": 157.15,
+      "duration": 23.15
     },
     {
       "label": "ayah_7",
-      "start": 157.12,
+      "start": 157.15,
       "end": 186.66,
-      "duration": 29.54
+      "duration": 29.51
     },
     {
       "label": "ayah_8",
       "start": 186.66,
-      "end": 215.48,
-      "duration": 28.82
+      "end": 215.12,
+      "duration": 28.46
     },
     {
       "label": "ayah_9",
-      "start": 215.48,
+      "start": 215.12,
       "end": 241.56,
-      "duration": 26.08
+      "duration": 26.44
     },
     {
       "label": "ayah_10",
       "start": 241.56,
-      "end": 275.18,
-      "duration": 33.62
+      "end": 274.94,
+      "duration": 33.38
     },
     {
       "label": "ayah_11",
-      "start": 275.18,
-      "end": 296.3,
-      "duration": 21.12
+      "start": 274.94,
+      "end": 296.33,
+      "duration": 21.39
     }
   ]
 }
